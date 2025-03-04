@@ -1,26 +1,26 @@
 [gd_scene load_steps=178 format=4 uid="uid://4mg0uhvjh21w"]
 
-[ext_resource type="Script" uid="uid://bn6b6xn6ybcb" path="res://Script/camera_2d.gd" id="1_ddisr"]
-[ext_resource type="Script" uid="uid://dlws6xg3hjrb2" path="res://Script/main.gd" id="1_j6t8t"]
+[ext_resource type="Script" path="res://Script/camera_2d.gd" id="1_ddisr"]
+[ext_resource type="Script" path="res://Script/main.gd" id="1_j6t8t"]
 [ext_resource type="Texture2D" uid="uid://bsgw6eu568a7x" path="res://Asset/19_Hospital_16x16.png" id="2_5tg65"]
 [ext_resource type="Texture2D" uid="uid://cy0784m50slvn" path="res://Asset/Room_Builder_3d_walls_16x16.png" id="3_4w76c"]
-[ext_resource type="Script" uid="uid://ckfuqty1kipuf" path="res://Script/tilemap.gd" id="3_w7xap"]
+[ext_resource type="Script" path="res://Script/tilemap.gd" id="3_w7xap"]
 [ext_resource type="Texture2D" uid="uid://b1ln556peil5c" path="res://Asset/Room_Builder_Floors_16x16.png" id="4_s7ai3"]
 [ext_resource type="Texture2D" uid="uid://chi3lpcf84hv" path="res://Asset/Room_Builder_Walls_16x16.png" id="5_3chat"]
 [ext_resource type="Texture2D" uid="uid://dyrtb20f8qyim" path="res://Asset/Room_Builder_borders_16x16.png" id="6_gmvnx"]
 [ext_resource type="Texture2D" uid="uid://crn4epmb6v8qd" path="res://Asset/8_Gym_16x16.png" id="7_agpc4"]
 [ext_resource type="PackedScene" uid="uid://buxfsv1bsjvlc" path="res://Scene/shop.tscn" id="7_b26gu"]
-[ext_resource type="Script" uid="uid://iquclks6u3we" path="res://Script/item_tile.gd" id="8_eo1oi"]
+[ext_resource type="Script" path="res://Script/item_tile.gd" id="8_eo1oi"]
 [ext_resource type="Texture2D" uid="uid://3ynuhfs737np" path="res://Asset/4_Bedroom_16x16.png" id="9_tlald"]
-[ext_resource type="Script" uid="uid://iv13h37fv36p" path="res://Script/floor.gd" id="10_j0msp"]
-[ext_resource type="Script" uid="uid://e22d2rq8jgig" path="res://Script/room_tile.gd" id="11_cbm8f"]
+[ext_resource type="Script" path="res://Script/floor.gd" id="10_j0msp"]
+[ext_resource type="Script" path="res://Script/room_tile.gd" id="11_cbm8f"]
 [ext_resource type="PackedScene" uid="uid://b332nxoeqn1a6" path="res://Scene/ItemScene/b0.tscn" id="11_xe8nd"]
-[ext_resource type="Script" uid="uid://7d24gk4k8ldb" path="res://Script/button_container.gd" id="11_xv8b1"]
+[ext_resource type="Script" path="res://Script/button_container.gd" id="11_xv8b1"]
 [ext_resource type="PackedScene" uid="uid://dhs6hoalk48eu" path="res://Scene/ItemScene/w3.tscn" id="12_3qpuk"]
 [ext_resource type="PackedScene" uid="uid://c1gd14jafsrtp" path="res://Scene/door.tscn" id="12_ck2kq"]
 [ext_resource type="PackedScene" uid="uid://b13bgt6ff4w8j" path="res://Scene/character.tscn" id="12_fndv5"]
 [ext_resource type="PackedScene" uid="uid://cvonfc8rc73mw" path="res://Scene/ItemScene/b1.tscn" id="12_gu5ek"]
-[ext_resource type="Script" uid="uid://bbk04phhjs7a2" path="res://Script/npc_container.gd" id="12_ww6pq"]
+[ext_resource type="Script" path="res://Script/npc_container.gd" id="12_ww6pq"]
 [ext_resource type="PackedScene" uid="uid://bs77fqtwdy458" path="res://Scene/ItemScene/d0.tscn" id="13_8fxna"]
 [ext_resource type="PackedScene" uid="uid://tc2o4ht7qr3n" path="res://Scene/ItemScene/w4.tscn" id="13_xmp5d"]
 [ext_resource type="PackedScene" uid="uid://cesbfap2p8hi2" path="res://Scene/ItemScene/d1.tscn" id="14_2cj05"]
@@ -38,12 +38,12 @@
 [ext_resource type="PackedScene" uid="uid://8s2muexeymuh" path="res://Scene/ItemScene/i1.tscn" id="20_6n3ok"]
 [ext_resource type="PackedScene" uid="uid://cwxiuk6awu0an" path="res://Scene/ItemScene/i2.tscn" id="21_riajq"]
 [ext_resource type="Texture2D" uid="uid://dr7inlq5o75xj" path="res://Asset/green_button.png" id="22_dxult"]
-[ext_resource type="Script" uid="uid://bxnmn68orylmi" path="res://Script/money.gd" id="22_s7j8l"]
-[ext_resource type="Script" uid="uid://c10uucw01y33m" path="res://Script/canvas_modulate.gd" id="23_g15n0"]
+[ext_resource type="Script" path="res://Script/money.gd" id="22_s7j8l"]
+[ext_resource type="Script" path="res://Script/canvas_modulate.gd" id="23_g15n0"]
 [ext_resource type="PackedScene" uid="uid://8lan4smdyyfp" path="res://Scene/ItemScene/i3.tscn" id="23_jyupf"]
 [ext_resource type="Texture2D" uid="uid://c5ck6bb2s5wi5" path="res://Asset/red_button.png" id="23_vqwst"]
 [ext_resource type="PackedScene" uid="uid://ddxur2mj42iew" path="res://Scene/ItemScene/i4.tscn" id="24_l0ywu"]
-[ext_resource type="Script" uid="uid://dp0nw0hntw3sq" path="res://Script/end.gd" id="24_p21mu"]
+[ext_resource type="Script" path="res://Script/end.gd" id="24_p21mu"]
 [ext_resource type="PackedScene" uid="uid://b1vrucy3v5e4" path="res://Scene/ItemScene/g0.tscn" id="25_v7lhk"]
 [ext_resource type="PackedScene" uid="uid://dhpj6x5jm67fk" path="res://Scene/ItemScene/g1.tscn" id="26_uwc1o"]
 [ext_resource type="PackedScene" uid="uid://4pu2nxlxrkg" path="res://Scene/ItemScene/g2.tscn" id="27_0tfsf"]
@@ -51,7 +51,7 @@
 [ext_resource type="PackedScene" uid="uid://y4pmqtmc7csd" path="res://Scene/ItemScene/g3.tscn" id="28_m27hs"]
 [ext_resource type="PackedScene" uid="uid://bw188psua6vcj" path="res://Scene/config.tscn" id="28_vs4i3"]
 [ext_resource type="PackedScene" uid="uid://bdqyj06t6sdvi" path="res://Scene/ItemScene/g4.tscn" id="29_5ikwq"]
-[ext_resource type="Script" uid="uid://bbw32h7d4b31g" path="res://Script/config_button.gd" id="29_tjl0q"]
+[ext_resource type="Script" path="res://Script/config_button.gd" id="29_tjl0q"]
 [ext_resource type="PackedScene" uid="uid://d2hgrv3aqcgrg" path="res://Scene/ItemScene/f2.tscn" id="30_8di6i"]
 [ext_resource type="PackedScene" uid="uid://d17e6uf4giqhv" path="res://Scene/ItemScene/f3.tscn" id="31_8pqs0"]
 [ext_resource type="PackedScene" uid="uid://snvck177dvmj" path="res://Scene/ItemScene/f4.tscn" id="33_o6lo7"]
@@ -61,7 +61,7 @@
 [ext_resource type="PackedScene" uid="uid://bydbsxx8lrta3" path="res://Scene/ItemScene/f6.tscn" id="35_kqpgj"]
 [ext_resource type="PackedScene" uid="uid://btqoh5hv0i3or" path="res://Scene/ItemScene/d2.tscn" id="36_hi7gl"]
 [ext_resource type="PackedScene" uid="uid://cvjyx3bl0vkp6" path="res://Scene/ItemScene/w2.tscn" id="36_raauc"]
-[ext_resource type="Shader" uid="uid://bhjdg8xwl85eh" path="res://Shader/background.gdshader" id="37_bomgx"]
+[ext_resource type="Shader" path="res://Shader/background.gdshader" id="37_bomgx"]
 [ext_resource type="PackedScene" uid="uid://ckp8fv6x18mu7" path="res://Scene/ItemScene/dd1.tscn" id="37_qo4p6"]
 [ext_resource type="PackedScene" uid="uid://dbit0xhyswg1h" path="res://Scene/ItemScene/dd2.tscn" id="38_2qc67"]
 [ext_resource type="Texture2D" uid="uid://2omke24xtck8" path="res://Asset/empty.png" id="38_uobsu"]
@@ -94,10 +94,10 @@
 [ext_resource type="Texture2D" uid="uid://13nlifitbju4" path="res://Individual Frames/[5] Blue/Sprite sheet for Basic Pack.png" id="82_cqgn3"]
 [ext_resource type="Texture2D" uid="uid://buwbqu4ifg3nf" path="res://6920.png" id="93_l48rq"]
 [ext_resource type="Texture2D" uid="uid://ckp282ttihqmj" path="res://cog.png" id="94_0tgjl"]
-[ext_resource type="Script" uid="uid://drssgfr1f5gor" path="res://Script/menu.gd" id="94_mutcd"]
+[ext_resource type="Script" path="res://Script/menu.gd" id="94_mutcd"]
 [ext_resource type="Texture2D" uid="uid://b1slto3t1bcpa" path="res://speaker.png" id="96_famqp"]
 [ext_resource type="AudioStream" uid="uid://blvb303a8psao" path="res://sound.mp3" id="97_ghf0a"]
-[ext_resource type="Script" uid="uid://cbac7pw4u2abo" path="res://Script/texture_button.gd" id="97_mq6dy"]
+[ext_resource type="Script" path="res://Script/texture_button.gd" id="97_mq6dy"]
 [ext_resource type="Texture2D" uid="uid://mktw8rg7b4q5" path="res://e3ef722.png" id="99_h6uiy"]
 [ext_resource type="Texture2D" uid="uid://7fq55uvtd2ie" path="res://a59.png" id="100_r3m0b"]
 
@@ -11147,8 +11147,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fgeay"]
 _data = {
-&"RESET": SubResource("Animation_y5lmg"),
-&"back": SubResource("Animation_j2hex")
+"RESET": SubResource("Animation_y5lmg"),
+"back": SubResource("Animation_j2hex")
 }
 
 [node name="Main" type="Node"]
@@ -11205,10 +11205,10 @@ offset_bottom = 380.0
 theme = SubResource("Theme_q1l32")
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0.388235, 0.388235, 0.388235, 1)
-theme_override_colors/font_focus_color = Color(0.389287, 0.389286, 0.389287, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.389287, 0.389286, 0.389287, 1)
+theme_override_colors/font_color = Color(0.388235, 0.388235, 0.388235, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("18_ntiel")
 theme_override_font_sizes/font_size = 16
 text = "去  号房"
@@ -11395,9 +11395,9 @@ offset_right = 253.0
 offset_bottom = 402.0
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0.25098, 0.25098, 0.25098, 1)
-theme_override_colors/font_focus_color = Color(0.25098, 0.25098, 0.25098, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.25098, 0.25098, 0.25098, 1)
+theme_override_colors/font_color = Color(0.25098, 0.25098, 0.25098, 1)
 theme_override_fonts/font = ExtResource("18_ntiel")
 theme_override_font_sizes/font_size = 16
 theme_override_styles/focus = SubResource("StyleBoxEmpty_m261t")
@@ -11504,9 +11504,9 @@ offset_right = 409.0
 offset_bottom = 402.0
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0.25098, 0.25098, 0.25098, 1)
-theme_override_colors/font_focus_color = Color(0.252027, 0.252028, 0.252028, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.252027, 0.252028, 0.252028, 1)
+theme_override_colors/font_color = Color(0.25098, 0.25098, 0.25098, 1)
 theme_override_fonts/font = ExtResource("18_ntiel")
 theme_override_font_sizes/font_size = 16
 theme_override_styles/focus = SubResource("StyleBoxEmpty_wy54p")
@@ -11561,7 +11561,7 @@ script = ExtResource("23_g15n0")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="CanvasModulate"]
 libraries = {
-&"": SubResource("AnimationLibrary_fgeay")
+"": SubResource("AnimationLibrary_fgeay")
 }
 
 [node name="Menu" type="Control" parent="."]
@@ -11603,9 +11603,9 @@ offset_right = 840.0
 offset_bottom = 82.0
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
 theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
-theme_override_colors/font_color = Color(0.25098, 0.25098, 0.25098, 1)
-theme_override_colors/font_focus_color = Color(0.252027, 0.252028, 0.252028, 1)
 theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.252027, 0.252028, 0.252028, 1)
+theme_override_colors/font_color = Color(0.25098, 0.25098, 0.25098, 1)
 theme_override_fonts/font = ExtResource("18_ntiel")
 theme_override_font_sizes/font_size = 16
 theme_override_styles/focus = SubResource("StyleBoxEmpty_wy54p")

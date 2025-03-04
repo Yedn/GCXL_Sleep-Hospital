@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dl3w5sts71g2j" path="res://Asset/UI books & more.png" id="1_irjrd"]
 [ext_resource type="Texture2D" uid="uid://dyrtb20f8qyim" path="res://Asset/Room_Builder_borders_16x16.png" id="2_v0hi1"]
-[ext_resource type="Script" uid="uid://crk8sdw46yihs" path="res://Script/book_text.gd" id="3_h6xsx"]
+[ext_resource type="Script" path="res://Script/book_text.gd" id="3_h6xsx"]
 [ext_resource type="Texture2D" uid="uid://du7iyxww4vqy2" path="res://Asset/play-button.png" id="4_p7d34"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_surjb"]
