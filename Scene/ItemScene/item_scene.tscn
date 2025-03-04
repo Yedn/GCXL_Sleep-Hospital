@@ -1,0 +1,38 @@
+[gd_scene load_steps=2 format=3 uid="uid://becssbep884oq"]
+
+[ext_resource type="Script" uid="uid://cgbtm7ssx7jhr" path="res://Script/item_scene.gd" id="1_7fxh8"]
+
+[node name="ItemScene" type="Node2D"]
+script = ExtResource("1_7fxh8")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+offset_left = -8.0
+offset_top = -8.0
+offset_right = -8.0
+offset_bottom = -8.0
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 2
+
+[node name="ReferenceRect" type="ReferenceRect" parent="GridContainer"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+border_color = Color(1, 1, 1, 1)
+
+[node name="ReferenceRect2" type="ReferenceRect" parent="GridContainer"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+border_color = Color(1, 1, 1, 1)
+
+[node name="ReferenceRect3" type="ReferenceRect" parent="GridContainer"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+border_color = Color(1, 1, 1, 1)
+
+[node name="ReferenceRect4" type="ReferenceRect" parent="GridContainer"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+border_color = Color(1, 1, 1, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -5)

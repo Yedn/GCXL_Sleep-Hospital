@@ -1,0 +1,68 @@
+[gd_scene load_steps=10 format=3 uid="uid://b4cdtxhi8ajim"]
+
+[ext_resource type="Texture2D" uid="uid://ctnrb4flvohod" path="res://Asset/Dialouge UI/dialog box small.png" id="1_onjpc"]
+[ext_resource type="Script" uid="uid://cg2aqcuwddadx" path="res://Script/text.gd" id="1_rb3pu"]
+[ext_resource type="Texture2D" uid="uid://bdkyndvu1wwgd" path="res://Asset/text.png" id="2_8bi22"]
+[ext_resource type="FontFile" uid="uid://cxsua0oj0kp4j" path="res://12X12.ttf" id="3_d3otr"]
+[ext_resource type="Texture2D" uid="uid://sidn0vt1b8nm" path="res://Asset/text2.png" id="4_e06bv"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xasjr"]
+texture = ExtResource("1_onjpc")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3u3s1"]
+texture = ExtResource("2_8bi22")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qivq0"]
+texture = ExtResource("4_e06bv")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ghvwl"]
+sources/0 = SubResource("TileSetAtlasSource_xasjr")
+sources/1 = SubResource("TileSetAtlasSource_3u3s1")
+sources/2 = SubResource("TileSetAtlasSource_qivq0")
+
+[node name="Text" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_rb3pu")
+
+[node name="TileMapLayer3" type="TileMapLayer" parent="."]
+position = Vector2(8, 0)
+tile_set = SubResource("TileSet_ghvwl")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+offset_left = -148.0
+offset_top = 2.0
+offset_right = 4.0
+offset_bottom = 19.0
+theme_override_colors/font_color = Color(0.333333, 0.309804, 0.298039, 1)
+theme_override_fonts/font = ExtResource("3_d3otr")
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 2

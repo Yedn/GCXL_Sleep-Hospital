@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://bhmwc2nqpg54j"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_n23gl"]
+
+[resource]
+script = ExtResource("1_n23gl")
+item_name = "王座"
+description = "坐上去会很舒适"
+price = 400
+value = [6, 2, 2, 1, 1]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(7, 60)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 58
+special_pos = Vector2i(9, 9)

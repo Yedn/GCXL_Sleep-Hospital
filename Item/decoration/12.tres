@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://0lyctdsidu3q"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_ewi0d"]
+
+[resource]
+script = ExtResource("1_ewi0d")
+item_name = "世界树幼苗"
+description = "再过5000年就长大了"
+price = 250
+value = [6, 2, 1, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 43
+special_pos = Vector2i(9, 9)

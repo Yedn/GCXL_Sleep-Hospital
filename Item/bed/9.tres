@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://b8m14kfiu6ea6"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_wgq07"]
+
+[resource]
+script = ExtResource("1_wgq07")
+item_name = "天空床(铜)"
+description = "十分舒适的铜床,具有云的质感"
+price = 200
+value = [2, 6, 2, 1, 1]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 16
+special_pos = Vector2i(9, 9)

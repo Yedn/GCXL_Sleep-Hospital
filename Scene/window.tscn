@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://3fjifharnxsr"]
+
+[ext_resource type="PackedScene" uid="uid://b6ckajoc2elsw" path="res://Scene/table.tscn" id="1_45c00"]
+[ext_resource type="Script" uid="uid://b3sv0taldo05y" path="res://Script/window.gd" id="1_gfqj1"]
+[ext_resource type="PackedScene" uid="uid://deippaa0i2ms2" path="res://Scene/book.tscn" id="2_fk8v2"]
+
+[node name="Window" type="Control"]
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 368.0
+offset_bottom = 304.0
+script = ExtResource("1_gfqj1")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.920755, 0.796409, 0.663122, 1)
+
+[node name="Table" parent="." instance=ExtResource("1_45c00")]
+offset_left = 192.0
+offset_right = 368.0
+
+[node name="Book" parent="." instance=ExtResource("2_fk8v2")]

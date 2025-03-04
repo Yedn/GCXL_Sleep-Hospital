@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://b6g0x50fs5w8q"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_bcapv"]
+
+[resource]
+script = ExtResource("1_bcapv")
+item_name = "普通床(木)"
+description = "普通的木床,各方面都比较均衡"
+price = 100
+value = [2, 2, 2, 2, 1]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 7
+special_pos = Vector2i(9, 9)

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://fj0ojjt7htv7"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_yc3f1"]
+
+[resource]
+script = ExtResource("1_yc3f1")
+item_name = "等身模型"
+description = "精致的模型"
+price = 100
+value = [4, 0, 2, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 41
+special_pos = Vector2i(9, 9)

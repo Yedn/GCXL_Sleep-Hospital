@@ -1,0 +1,102 @@
+[gd_scene load_steps=4 format=3 uid="uid://gbma1a3nhvvj"]
+
+[ext_resource type="Script" uid="uid://3s8paqf138vq" path="res://Script/shop_ui.gd" id="1_7b1ox"]
+[ext_resource type="FontFile" uid="uid://dbtc57ua6r3mh" path="res://16X16.ttf" id="1_vctnn"]
+[ext_resource type="PackedScene" uid="uid://t7du1djrkkeo" path="res://Scene/shop_slot.tscn" id="2_g6mfn"]
+
+[node name="ShopUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 192.0
+offset_bottom = 443.0
+script = ExtResource("1_7b1ox")
+slot_scene = ExtResource("2_g6mfn")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 6.0
+offset_right = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.635448, 0.78814, 1, 1)
+
+[node name="Title" type="Control" parent="."]
+custom_minimum_size = Vector2(192, 112)
+layout_mode = 2
+anchors_preset = 0
+offset_left = 5.0
+offset_top = 15.0
+offset_right = 197.0
+offset_bottom = 127.0
+
+[node name="ColorRect" type="ColorRect" parent="Title"]
+layout_mode = 1
+offset_left = 13.0
+offset_top = 1.0
+offset_right = 158.0
+offset_bottom = 88.0
+color = Color(0.405072, 0.655909, 1, 1)
+
+[node name="Label" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = -11.0
+offset_top = 7.0
+offset_right = 181.0
+offset_bottom = 80.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_vctnn")
+theme_override_font_sizes/font_size = 16
+text = "床
+舒适：1  装饰：2
+解压：3  医疗：0
+管控：0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 112.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="ScrollContainer2" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 112.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer2"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="ScrollContainer3" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 112.0
+grow_horizontal = 2
+grow_vertical = 2
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer3"]
+layout_mode = 2
+theme_override_constants/separation = 0

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://uxakf87f8ao7"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_qcv1t"]
+
+[resource]
+script = ExtResource("1_qcv1t")
+item_name = "小太阳花"
+description = "普通的小型太阳花"
+price = 50
+value = [2, 0, 1, 0, 0]
+type = 1
+id = 0
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(0, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 3
+special_pos = Vector2i(9, 9)

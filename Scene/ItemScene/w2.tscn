@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvjyx3bl0vkp6"]
+
+[ext_resource type="PackedScene" uid="uid://becssbep884oq" path="res://Scene/ItemScene/item_scene.tscn" id="1_8840l"]
+[ext_resource type="Texture2D" uid="uid://c33dinyrm84di" path="res://Scene/ItemScene/BedTexture/w2.png" id="2_1i4tq"]
+
+[node name="ItemScene" instance=ExtResource("1_8840l")]
+
+[node name="Sprite2D" parent="." index="1"]
+texture = ExtResource("2_1i4tq")

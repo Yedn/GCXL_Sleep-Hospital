@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://c1re4tikj46v8"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_uxa2k"]
+
+[resource]
+script = ExtResource("1_uxa2k")
+item_name = "古树"
+description = "有一些年代的树"
+price = 100
+value = [4, 1, 1, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 38
+special_pos = Vector2i(9, 9)

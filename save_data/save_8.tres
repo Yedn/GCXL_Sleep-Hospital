@@ -1,0 +1,1285 @@
+[gd_resource type="Resource" script_class="SaveData" load_steps=73 format=3 uid="uid://4j72x7llm0ew"]
+
+[ext_resource type="Script" uid="uid://datw4goy6k8nf" path="res://Script/Room.gd" id="1_u4rm8"]
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="2_awhqj"]
+[ext_resource type="Script" uid="uid://bh8my61w81egh" path="res://Script/SaveData.gd" id="3_envj2"]
+
+[sub_resource type="Resource" id="Resource_aacpa"]
+script = ExtResource("2_awhqj")
+item_name = "灵能床(银)"
+description = "能与患者进行心灵沟通的银床，帮助患者舒缓压力"
+price = 400
+value = [2, 2, 8, 2, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 20
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_0vn5g"]
+script = ExtResource("2_awhqj")
+item_name = "普通床(金)"
+description = "普通的金床,各方面都比较均衡"
+price = 800
+value = [8, 4, 4, 4, 4]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 22
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_4yl7f"]
+script = ExtResource("2_awhqj")
+item_name = "玻璃桌"
+description = "好看的玻璃桌，可以用来放东西"
+price = 75
+value = [2, 1, 1, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(7, 60)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 6
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_vv2gf"]
+script = ExtResource("2_awhqj")
+item_name = "大型玩偶"
+description = "给予患者精神上的安抚"
+price = 150
+value = [2, 1, 4, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 32
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_svg8a"]
+script = ExtResource("2_awhqj")
+item_name = "玻璃桌"
+description = "好看的玻璃桌，可以用来放东西"
+price = 75
+value = [2, 1, 1, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(7, 60)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 6
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_aud1c"]
+script = ExtResource("2_awhqj")
+item_name = "自动售货机"
+description = "内置各种健康饮食"
+price = 75
+value = [0, 1, 2, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 29
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_4clem"]
+script = ExtResource("2_awhqj")
+item_name = "小太阳花"
+description = "普通的小型太阳花"
+price = 50
+value = [2, 0, 1, 0, 0]
+type = 1
+id = 0
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(0, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 3
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_nvbek"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_tsat7"]
+script = ExtResource("2_awhqj")
+item_name = "电话"
+description = "方便患者和家人沟通"
+price = 100
+value = [0, 1, 2, 0, 1]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 42
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_om66b"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="PackedScene" id="PackedScene_m57u5"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"names": PackedStringArray("", "script", "pos", "id", "type", "bed_num", "facility_num", "decoration_num", "bed_list", "bed_pos", "facility_list", "facility_pos", "decoration_list", "decoration_pos", "value", "choosed_slot", "npc_max", "npc_list", "Node"),
+"node_count": 1,
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 18, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 2, 5, 3, 6, 4, 7, 4, 8, 5, 9, 6, 10, 7, 11, 8, 12, 9, 13, 10, 14, 11, 15, 12, 16, 3, 17, 13, 0),
+"variants": [ExtResource("1_u4rm8"), Vector2i(0, 12), 0, 2, 4, {
+0: SubResource("Resource_aacpa"),
+1: SubResource("Resource_0vn5g")
+}, {
+0: Vector2i(2, 0),
+1: Vector2i(3, 0)
+}, {
+0: SubResource("Resource_4yl7f"),
+1: SubResource("Resource_vv2gf"),
+2: SubResource("Resource_svg8a"),
+3: SubResource("Resource_aud1c")
+}, {
+0: Vector2i(0, 2),
+1: Vector2i(4, 2),
+2: Vector2i(0, 4),
+3: Vector2i(4, 4)
+}, {
+0: SubResource("Resource_4clem"),
+1: SubResource("Resource_nvbek"),
+2: SubResource("Resource_tsat7"),
+3: SubResource("Resource_om66b")
+}, {
+0: Vector2i(0, 0),
+1: Vector2i(5, 0),
+2: Vector2i(1, 0),
+3: Vector2i(4, 0)
+}, [18, -1, 11, 30, 31], [0, 0], [null]],
+"version": 3
+}
+
+[sub_resource type="Resource" id="Resource_1caqi"]
+script = ExtResource("2_awhqj")
+item_name = "天空床(金)"
+description = "十分舒适的金床,具有云的质感"
+price = 800
+value = [4, 10, 2, 2, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 26
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_fe21c"]
+script = ExtResource("2_awhqj")
+item_name = "医疗床(金)"
+description = "能在患者睡眠时缓慢释放药物的金床"
+price = 800
+value = [4, 2, 2, 10, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 24
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_ld3n3"]
+script = ExtResource("2_awhqj")
+item_name = "高性能机器人"
+description = "能在合适的时机给予患者帮助的机器人"
+price = 75
+value = [0, 1, 1, 1, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 28
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_x7d5n"]
+script = ExtResource("2_awhqj")
+item_name = "工具台"
+description = "配备齐全各种医疗工具"
+price = 75
+value = [0, 0, 0, 3, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 5
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_so8b1"]
+script = ExtResource("2_awhqj")
+item_name = "玻璃桌"
+description = "好看的玻璃桌，可以用来放东西"
+price = 75
+value = [2, 1, 1, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(7, 60)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 6
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_2a8r0"]
+script = ExtResource("2_awhqj")
+item_name = "小蓝花"
+description = "普通的小型蓝花"
+price = 50
+value = [2, 1, 0, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 4
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_0u730"]
+script = ExtResource("2_awhqj")
+item_name = "古树"
+description = "有一些年代的树"
+price = 100
+value = [4, 1, 1, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 38
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_wc3gf"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_xh1cm"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="PackedScene" id="PackedScene_e7lky"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"names": PackedStringArray("", "script", "pos", "id", "type", "bed_num", "facility_num", "decoration_num", "bed_list", "bed_pos", "facility_list", "facility_pos", "decoration_list", "decoration_pos", "value", "choosed_slot", "npc_max", "npc_list", "Node"),
+"node_count": 1,
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 18, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 5, 8, 6, 9, 7, 10, 8, 11, 9, 12, 10, 13, 11, 14, 12, 15, 13, 16, 4, 17, 14, 0),
+"variants": [ExtResource("1_u4rm8"), Vector2i(7, 0), 1, 0, 2, 4, {
+0: SubResource("Resource_1caqi"),
+1: SubResource("Resource_fe21c")
+}, {
+0: Vector2i(2, 0),
+1: Vector2i(3, 0)
+}, {
+0: SubResource("Resource_ld3n3"),
+1: SubResource("Resource_x7d5n"),
+2: SubResource("Resource_so8b1"),
+3: null
+}, {
+0: Vector2i(0, 2),
+1: Vector2i(4, 2),
+2: Vector2i(0, 4),
+3: Vector2i(4, 4)
+}, {
+0: SubResource("Resource_2a8r0"),
+1: SubResource("Resource_0u730"),
+2: SubResource("Resource_wc3gf"),
+3: SubResource("Resource_xh1cm")
+}, {
+0: Vector2i(0, 0),
+1: Vector2i(5, 0),
+2: Vector2i(1, 0),
+3: Vector2i(4, 0)
+}, [16, 4, -5, 40, 28], [0, 0], [null]],
+"version": 3
+}
+
+[sub_resource type="Resource" id="Resource_5d2po"]
+script = ExtResource("2_awhqj")
+item_name = "灵能床(金)"
+description = "能与患者进行心灵沟通的金床，帮助患者舒缓压力"
+price = 800
+value = [4, 2, 10, 2, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 25
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_olfas"]
+script = ExtResource("2_awhqj")
+item_name = "普通床(金)"
+description = "普通的金床,各方面都比较均衡"
+price = 800
+value = [8, 4, 4, 4, 4]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 22
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_4irum"]
+script = ExtResource("2_awhqj")
+item_name = "全功能桌"
+description = "可以满足一切需要的桌子"
+price = 75
+value = [0, 0, 2, 0, 1]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 30
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_ty7r8"]
+script = ExtResource("2_awhqj")
+item_name = "跑步机"
+description = "适当运动可以缓解压力"
+price = 150
+value = [0, 0, 3, 0, 3]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 49
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_7dm1m"]
+script = ExtResource("2_awhqj")
+item_name = "大鼓"
+description = "一个可以帮助患者释放压力的乐器"
+price = 150
+value = [0, 2, 4, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 51
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_sh854"]
+script = ExtResource("2_awhqj")
+item_name = "小树"
+description = "种在盆栽中的小树"
+price = 50
+value = [0, 1, 1, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 33
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_xpf2d"]
+script = ExtResource("2_awhqj")
+item_name = "小蓝花"
+description = "普通的小型蓝花"
+price = 50
+value = [2, 1, 0, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 4
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_rv40g"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_7frws"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="PackedScene" id="PackedScene_hambb"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"names": PackedStringArray("", "script", "pos", "id", "type", "bed_num", "facility_num", "decoration_num", "bed_list", "bed_pos", "facility_list", "facility_pos", "decoration_list", "decoration_pos", "value", "choosed_slot", "npc_max", "npc_list", "Node"),
+"node_count": 1,
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 18, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 3, 5, 2, 6, 4, 7, 4, 8, 5, 9, 6, 10, 7, 11, 8, 12, 9, 13, 10, 14, 11, 15, 12, 16, 2, 17, 13, 0),
+"variants": [ExtResource("1_u4rm8"), Vector2i(7, 12), 2, 0, 4, {
+0: SubResource("Resource_5d2po"),
+1: SubResource("Resource_olfas")
+}, {
+0: Vector2i(2, 0),
+1: Vector2i(3, 0)
+}, {
+0: SubResource("Resource_4irum"),
+1: SubResource("Resource_ty7r8"),
+2: null,
+3: SubResource("Resource_7dm1m")
+}, {
+0: Vector2i(0, 2),
+1: Vector2i(4, 2),
+2: Vector2i(0, 4),
+3: Vector2i(4, 4)
+}, {
+0: SubResource("Resource_sh854"),
+1: SubResource("Resource_xpf2d"),
+2: SubResource("Resource_rv40g"),
+3: SubResource("Resource_7frws")
+}, {
+0: Vector2i(0, 0),
+1: Vector2i(5, 0),
+2: Vector2i(1, 0),
+3: Vector2i(4, 0)
+}, [14, -2, 12, 30, 34], [0, 0], [null, null]],
+"version": 3
+}
+
+[sub_resource type="Resource" id="Resource_o7hqo"]
+script = ExtResource("2_awhqj")
+item_name = "普通床(银)"
+description = "普通的银床,各方面都比较均衡"
+price = 400
+value = [6, 4, 3, 3, 3]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 17
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_5qdqt"]
+script = ExtResource("2_awhqj")
+item_name = "灵能床(银)"
+description = "能与患者进行心灵沟通的银床，帮助患者舒缓压力"
+price = 400
+value = [2, 2, 8, 2, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 20
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_cosku"]
+script = ExtResource("2_awhqj")
+item_name = "书架"
+description = "书籍就是力量"
+price = 75
+value = [0, 0, 1, 1, 1]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 31
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_i4vgb"]
+script = ExtResource("2_awhqj")
+item_name = "工具台"
+description = "配备齐全各种医疗工具"
+price = 75
+value = [0, 0, 0, 3, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 5
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_n475a"]
+script = ExtResource("2_awhqj")
+item_name = "小仙人掌"
+description = "患者必须抑制住伸手摸它的想法"
+price = 50
+value = [0, 0, 0, 0, 2]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 36
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_fmwu7"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_8htvo"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_k2iig"]
+script = ExtResource("2_awhqj")
+item_name = "地球仪"
+description = "可以看到世界各地"
+price = 250
+value = [2, 3, 2, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 45
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="PackedScene" id="PackedScene_hqp5a"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"names": PackedStringArray("", "script", "pos", "id", "type", "bed_num", "facility_num", "decoration_num", "bed_list", "bed_pos", "facility_list", "facility_pos", "decoration_list", "decoration_pos", "value", "choosed_slot", "npc_max", "npc_list", "Node"),
+"node_count": 1,
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 18, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 5, 8, 6, 9, 7, 10, 8, 11, 9, 12, 10, 13, 11, 14, 12, 15, 13, 16, 4, 17, 14, 0),
+"variants": [ExtResource("1_u4rm8"), Vector2i(14, 0), 3, 0, 2, 4, {
+0: SubResource("Resource_o7hqo"),
+1: SubResource("Resource_5qdqt")
+}, {
+0: Vector2i(2, 0),
+1: Vector2i(3, 0)
+}, {
+0: SubResource("Resource_cosku"),
+1: SubResource("Resource_i4vgb"),
+2: null,
+3: null
+}, {
+0: Vector2i(0, 2),
+1: Vector2i(4, 2),
+2: Vector2i(0, 4),
+3: Vector2i(4, 4)
+}, {
+0: SubResource("Resource_n475a"),
+1: SubResource("Resource_fmwu7"),
+2: SubResource("Resource_8htvo"),
+3: SubResource("Resource_k2iig")
+}, {
+0: Vector2i(0, 0),
+1: Vector2i(5, 0),
+2: Vector2i(1, 0),
+3: Vector2i(4, 0)
+}, [10, -3, 2, 33, 32], [0, 1], [null, null]],
+"version": 3
+}
+
+[sub_resource type="Resource" id="Resource_ri8pt"]
+script = ExtResource("2_awhqj")
+item_name = "天空床(金)"
+description = "十分舒适的金床,具有云的质感"
+price = 800
+value = [4, 10, 2, 2, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 26
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_wv736"]
+script = ExtResource("2_awhqj")
+item_name = "灵能床(金)"
+description = "能与患者进行心灵沟通的金床，帮助患者舒缓压力"
+price = 800
+value = [4, 2, 10, 2, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 25
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_h2lmu"]
+script = ExtResource("2_awhqj")
+item_name = "工具台"
+description = "配备齐全各种医疗工具"
+price = 75
+value = [0, 0, 0, 3, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 5
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_1ecji"]
+script = ExtResource("2_awhqj")
+item_name = "高性能机器人"
+description = "能在合适的时机给予患者帮助的机器人"
+price = 75
+value = [0, 1, 1, 1, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 28
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_edkvw"]
+script = ExtResource("2_awhqj")
+item_name = "自动售货机"
+description = "内置各种健康饮食"
+price = 75
+value = [0, 1, 2, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 29
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_r0yno"]
+script = ExtResource("2_awhqj")
+item_name = "大书"
+description = "图画精美的大型书"
+price = 400
+value = [2, 3, 3, 1, 1]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(7, 60)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 57
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_0068f"]
+script = ExtResource("2_awhqj")
+item_name = "橡树"
+description = "种在盆栽中的橡树"
+price = 50
+value = [0, 0, 1, 1, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 35
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_st6d8"]
+script = ExtResource("2_awhqj")
+item_name = "热带树"
+description = "种在盆栽中的热带树"
+price = 50
+value = [2, 0, 0, 1, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 34
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_3tfvy"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_wpr25"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="PackedScene" id="PackedScene_dqei5"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"names": PackedStringArray("", "script", "pos", "id", "type", "bed_num", "facility_num", "decoration_num", "bed_list", "bed_pos", "facility_list", "facility_pos", "decoration_list", "decoration_pos", "value", "choosed_slot", "npc_max", "npc_list", "Node"),
+"node_count": 1,
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 18, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 2, 7, 2, 8, 5, 9, 6, 10, 7, 11, 8, 12, 9, 13, 10, 14, 11, 15, 12, 16, 4, 17, 13, 0),
+"variants": [ExtResource("1_u4rm8"), Vector2i(14, 12), 4, 0, 2, {
+0: SubResource("Resource_ri8pt"),
+1: SubResource("Resource_wv736")
+}, {
+0: Vector2i(2, 0),
+1: Vector2i(3, 0)
+}, {
+0: SubResource("Resource_h2lmu"),
+1: SubResource("Resource_1ecji"),
+2: SubResource("Resource_edkvw"),
+3: SubResource("Resource_r0yno")
+}, {
+0: Vector2i(0, 2),
+1: Vector2i(4, 2),
+2: Vector2i(0, 4),
+3: Vector2i(4, 4)
+}, {
+0: SubResource("Resource_0068f"),
+1: SubResource("Resource_st6d8"),
+2: SubResource("Resource_3tfvy"),
+3: SubResource("Resource_wpr25")
+}, {
+0: Vector2i(0, 0),
+1: Vector2i(5, 0),
+2: Vector2i(1, 0),
+3: Vector2i(4, 0)
+}, [12, 5, 7, 35, 29], [0, 0], [null, null]],
+"version": 3
+}
+
+[sub_resource type="Resource" id="Resource_lhw2g"]
+script = ExtResource("2_awhqj")
+item_name = "灵能床(铜)"
+description = "能与患者进行心灵沟通的铜床，帮助患者舒缓压力"
+price = 200
+value = [2, 2, 6, 1, 1]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 15
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_sdthc"]
+script = ExtResource("2_awhqj")
+item_name = "自律床(银)"
+description = "能让人自律的银床"
+price = 400
+value = [2, 2, 2, 2, 8]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 18
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_o1217"]
+script = ExtResource("2_awhqj")
+item_name = "自动售货机"
+description = "内置各种健康饮食"
+price = 75
+value = [0, 1, 2, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 29
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_u6kd6"]
+script = ExtResource("2_awhqj")
+item_name = "工具台"
+description = "配备齐全各种医疗工具"
+price = 75
+value = [0, 0, 0, 3, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 5
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_b6lky"]
+script = ExtResource("2_awhqj")
+item_name = "小树"
+description = "种在盆栽中的小树"
+price = 50
+value = [0, 1, 1, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 33
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_flius"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_4wb86"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="PackedScene" id="PackedScene_1yowf"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"names": PackedStringArray("", "script", "pos", "id", "type", "bed_num", "facility_num", "decoration_num", "bed_list", "bed_pos", "facility_list", "facility_pos", "decoration_list", "decoration_pos", "value", "choosed_slot", "npc_max", "npc_list", "Node"),
+"node_count": 1,
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 18, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 5, 8, 6, 9, 7, 10, 8, 11, 9, 12, 10, 13, 11, 14, 12, 15, 13, 16, 4, 17, 14, 0),
+"variants": [ExtResource("1_u4rm8"), Vector2i(21, 0), 5, 0, 2, 4, {
+0: SubResource("Resource_lhw2g"),
+1: SubResource("Resource_sdthc")
+}, {
+0: Vector2i(2, 0),
+1: Vector2i(3, 0)
+}, {
+0: SubResource("Resource_o1217"),
+1: SubResource("Resource_u6kd6"),
+2: null,
+3: null
+}, {
+0: Vector2i(0, 2),
+1: Vector2i(4, 2),
+2: Vector2i(0, 4),
+3: Vector2i(4, 4)
+}, {
+0: SubResource("Resource_b6lky"),
+1: SubResource("Resource_flius"),
+2: SubResource("Resource_4wb86"),
+3: null
+}, {
+0: Vector2i(0, 0),
+1: Vector2i(5, 0),
+2: Vector2i(1, 0),
+3: Vector2i(4, 0)
+}, [4, -6, -1, 30, 33], [0, 0], []],
+"version": 3
+}
+
+[sub_resource type="Resource" id="Resource_47osx"]
+script = ExtResource("2_awhqj")
+item_name = "灵能床(银)"
+description = "能与患者进行心灵沟通的银床，帮助患者舒缓压力"
+price = 400
+value = [2, 2, 8, 2, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 20
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_gvoig"]
+script = ExtResource("2_awhqj")
+item_name = "医疗床(银)"
+description = "能在患者睡眠时缓慢释放药物的银床"
+price = 400
+value = [2, 2, 2, 8, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 19
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_ei65u"]
+script = ExtResource("2_awhqj")
+item_name = "玻璃桌"
+description = "好看的玻璃桌，可以用来放东西"
+price = 75
+value = [2, 1, 1, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(7, 60)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 6
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_qywpb"]
+script = ExtResource("2_awhqj")
+item_name = "大型玩偶"
+description = "给予患者精神上的安抚"
+price = 150
+value = [2, 1, 4, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 32
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_nifdg"]
+script = ExtResource("2_awhqj")
+item_name = "工具台"
+description = "配备齐全各种医疗工具"
+price = 75
+value = [0, 0, 0, 3, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 5
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_75iyi"]
+script = ExtResource("2_awhqj")
+item_name = "工具台"
+description = "配备齐全各种医疗工具"
+price = 75
+value = [0, 0, 0, 3, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 5
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_y78fp"]
+script = ExtResource("2_awhqj")
+item_name = "小蓝花"
+description = "普通的小型蓝花"
+price = 50
+value = [2, 1, 0, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 4
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_21myh"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="Resource" id="Resource_4jon1"]
+script = ExtResource("2_awhqj")
+item_name = "高等数学"
+description = "禁忌之书"
+price = 250
+value = [0, -6, -6, 12, 12]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 44
+special_pos = Vector2i(9, 9)
+
+[sub_resource type="PackedScene" id="PackedScene_gnvdj"]
+_bundled = {
+"conn_count": 0,
+"conns": PackedInt32Array(),
+"editable_instances": [],
+"names": PackedStringArray("", "script", "pos", "id", "type", "bed_num", "facility_num", "decoration_num", "bed_list", "bed_pos", "facility_list", "facility_pos", "decoration_list", "decoration_pos", "value", "choosed_slot", "npc_max", "npc_list", "Node"),
+"node_count": 1,
+"node_paths": [],
+"nodes": PackedInt32Array(-1, -1, 18, 0, -1, 17, 1, 0, 2, 1, 3, 2, 4, 3, 5, 4, 6, 5, 7, 5, 8, 6, 9, 7, 10, 8, 11, 9, 12, 10, 13, 11, 14, 12, 15, 13, 16, 4, 17, 14, 0),
+"variants": [ExtResource("1_u4rm8"), Vector2i(21, 12), 6, 0, 2, 4, {
+0: SubResource("Resource_47osx"),
+1: SubResource("Resource_gvoig")
+}, {
+0: Vector2i(2, 0),
+1: Vector2i(3, 0)
+}, {
+0: SubResource("Resource_ei65u"),
+1: SubResource("Resource_qywpb"),
+2: SubResource("Resource_nifdg"),
+3: SubResource("Resource_75iyi")
+}, {
+0: Vector2i(0, 2),
+1: Vector2i(4, 2),
+2: Vector2i(0, 4),
+3: Vector2i(4, 4)
+}, {
+0: SubResource("Resource_y78fp"),
+1: SubResource("Resource_21myh"),
+2: SubResource("Resource_4jon1"),
+3: null
+}, {
+0: Vector2i(0, 0),
+1: Vector2i(5, 0),
+2: Vector2i(1, 0),
+3: Vector2i(4, 0)
+}, [10, -5, 3, 40, 28], [0, 0], [null, null]],
+"version": 3
+}
+
+[resource]
+script = ExtResource("3_envj2")
+money = 2400
+day = 8
+room_list = {
+0: SubResource("PackedScene_m57u5"),
+1: SubResource("PackedScene_e7lky"),
+2: SubResource("PackedScene_hambb"),
+3: SubResource("PackedScene_hqp5a"),
+4: SubResource("PackedScene_dqei5"),
+5: SubResource("PackedScene_1yowf"),
+6: SubResource("PackedScene_gnvdj")
+}
+frame = 118

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://bnow1rvmmgchw"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_vqke1"]
+
+[resource]
+script = ExtResource("1_vqke1")
+item_name = "画架"
+description = "可以让患者专注于画画"
+price = 150
+value = [6, 1, 2, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 52
+special_pos = Vector2i(9, 9)

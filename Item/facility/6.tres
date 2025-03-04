@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://bnw5v8kxx33uh"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_vy6s0"]
+
+[resource]
+script = ExtResource("1_vy6s0")
+item_name = "大型玩偶"
+description = "给予患者精神上的安抚"
+price = 150
+value = [2, 1, 4, 0, 0]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(4, 63)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 32
+special_pos = Vector2i(9, 9)

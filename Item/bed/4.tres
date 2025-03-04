@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://d237ss087d3je"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_hwgf2"]
+
+[resource]
+script = ExtResource("1_hwgf2")
+item_name = "天空床(木)"
+description = "十分舒适的木床,具有云的质感"
+price = 100
+value = [2, 4, 1, 1, 1]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 11
+special_pos = Vector2i(9, 9)

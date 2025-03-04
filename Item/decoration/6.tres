@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cpeuqtvtqfvhb"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_0p0bf"]
+
+[resource]
+script = ExtResource("1_0p0bf")
+item_name = "小礼物"
+description = "送给患者的小礼物"
+price = 100
+value = [2, 1, 2, 0, 0]
+type = 1
+id = 1
+source_size = Vector2i(1, 1)
+source_pos = Vector2i(4, 19)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 37
+special_pos = Vector2i(9, 9)

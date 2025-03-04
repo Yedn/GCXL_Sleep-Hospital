@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://bu06loo36om5"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_013ey"]
+
+[resource]
+script = ExtResource("1_013ey")
+item_name = "普通床(金)"
+description = "普通的金床,各方面都比较均衡"
+price = 800
+value = [8, 4, 4, 4, 4]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 22
+special_pos = Vector2i(9, 9)

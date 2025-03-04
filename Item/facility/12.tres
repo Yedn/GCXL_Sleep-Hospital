@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://c1sc74to1uyn"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_h7t0l"]
+
+[resource]
+script = ExtResource("1_h7t0l")
+item_name = "多功能分析仪"
+description = "能够依靠患者的言行举止分析患者的精神状态，从而提供最佳的治疗方案"
+price = 400
+value = [0, 1, 0, 6, 2]
+type = 2
+id = 0
+source_size = Vector2i(2, 2)
+source_pos = Vector2i(7, 60)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 54
+special_pos = Vector2i(9, 9)

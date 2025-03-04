@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://ckrponx7hy545"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_lfwkf"]
+
+[resource]
+script = ExtResource("1_lfwkf")
+item_name = "灵能床(铜)"
+description = "能与患者进行心灵沟通的铜床，帮助患者舒缓压力"
+price = 200
+value = [2, 2, 6, 1, 1]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 15
+special_pos = Vector2i(9, 9)

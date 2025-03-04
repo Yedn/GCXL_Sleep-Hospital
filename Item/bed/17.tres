@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://dqt3e2cbc3p46"]
+
+[ext_resource type="Script" uid="uid://du754pr1t4i2e" path="res://Script/Item.gd" id="1_b1cej"]
+
+[resource]
+script = ExtResource("1_b1cej")
+item_name = "医疗床(金)"
+description = "能在患者睡眠时缓慢释放药物的金床"
+price = 800
+value = [4, 2, 2, 10, 2]
+type = 0
+id = 0
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
+delta_pos = Vector2i(0, 0)
+level = 0
+pattern_id = -1
+scene_id = 24
+special_pos = Vector2i(9, 9)
