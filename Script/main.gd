@@ -11,8 +11,10 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	update_room_value()
+	$Suanli.text = "算力："+str(Data.suanli)+"P"
 
 
 func update():

@@ -9,6 +9,7 @@ func enter():
 	character.emo_play = true
 	character.emo_id = 1
 	character.emo_restart()
+	@warning_ignore("unused_variable")
 	var id:int = character.room.npc_list.find(character)
 	var cell:Vector2i = character.room.pos+character.room.bed_pos[character.target_bed]
 	character.animated.animation = "sleep"
@@ -28,6 +29,7 @@ func enter():
 func exit():
 	pass
 
+@warning_ignore("unused_parameter")
 func update(delta:float):
 	for npc in character.room.npc_list:
 		if npc != character:
@@ -43,6 +45,7 @@ func update(delta:float):
 	if Data.morning == true:
 		transition.emit(self,"GetUp")
 
+@warning_ignore("unused_parameter")
 func physics_update(delta:float):
 	pass
 

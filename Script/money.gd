@@ -7,6 +7,7 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	text = "[color=white]金钱:%dG"%Data.money
 	$"../Frame".text = "声望:"+str(Data.frame)

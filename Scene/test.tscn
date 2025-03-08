@@ -1,0 +1,103 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlxpuy465sqyr"]
+
+[ext_resource type="Script" path="res://Script/test.gd" id="1_d44gx"]
+
+[node name="Test" type="Control" node_paths=PackedStringArray("nodes")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d44gx")
+nodes = [NodePath("VBoxContainer/A"), NodePath("VBoxContainer/B"), NodePath("VBoxContainer/C"), NodePath("VBoxContainer/D")]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 80.0
+offset_right = -84.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0235294, 0.101961, 0.211765, 0.941176)
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 68.0
+grow_horizontal = 2
+text = "算力中心"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 153.0
+offset_top = 67.0
+offset_right = -152.0
+offset_bottom = 448.0
+grow_horizontal = 2
+
+[node name="Question" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "以下哪项不是国产AI医疗大模型？"
+autowrap_mode = 1
+
+[node name="A" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+text = "A.LungDiag模型"
+alignment = 0
+
+[node name="B" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+text = "B.岐黄问道大模型"
+alignment = 0
+
+[node name="C" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+text = "C.TCMLLM"
+alignment = 0
+
+[node name="D" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+text = "D.BioMedLM"
+alignment = 0
+
+[node name="Answer" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "解析：
+        BioMedLM是斯坦福基础模型研究中心（CRFM）和MosaicML联合开发的模型，一种经训练可以解释生物医学语言的大型语言模型。"
+autowrap_mode = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 342.0
+offset_right = 496.0
+offset_bottom = 388.0
+text = "下一题"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 105.0
+offset_top = 16.0
+offset_right = 182.0
+offset_bottom = 52.0
+text = "返回"
+
+[connection signal="pressed" from="VBoxContainer/A" to="." method="_on_a_pressed"]
+[connection signal="pressed" from="VBoxContainer/B" to="." method="_on_b_pressed"]
+[connection signal="pressed" from="VBoxContainer/C" to="." method="_on_c_pressed"]
+[connection signal="pressed" from="VBoxContainer/D" to="." method="_on_d_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

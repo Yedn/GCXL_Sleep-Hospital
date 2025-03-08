@@ -122,10 +122,13 @@ func load_item(id:int,type:int) -> Item:
 
 func update_all():
 	for i in Data.bed_num:
+		@warning_ignore("unused_variable")
 		var slot:ShopSlot = v_box_container.get_node(str(Vector2(0,i)))
 	for i in Data.facility_num:
+		@warning_ignore("unused_variable")
 		var slot:ShopSlot = v_box_container1.get_node(str(Vector2(1,i)))
 	for i in Data.decoration_num:
+		@warning_ignore("unused_variable")
 		var slot:ShopSlot = v_box_container2.get_node(str(Vector2(2,i)))
 
 func update():

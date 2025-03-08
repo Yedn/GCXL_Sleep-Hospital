@@ -1,6 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://c1gd14jafsrtp"]
 
-[ext_resource type="Script" uid="uid://cp30teu368c5w" path="res://Script/door.gd" id="1_0g8fi"]
+[ext_resource type="Script" path="res://Script/door.gd" id="1_0g8fi"]
 [ext_resource type="Texture2D" uid="uid://bxv6yt0627w4j" path="res://Asset/animated_door_glass_left.png" id="1_7w0x6"]
 [ext_resource type="Texture2D" uid="uid://fyrg1238uvf2" path="res://Asset/animated_door_glass_right.png" id="2_g4bim"]
 

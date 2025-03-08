@@ -1,7 +1,7 @@
 [gd_scene load_steps=103 format=4 uid="uid://doxbrhptt1xjr"]
 
 [ext_resource type="Texture2D" uid="uid://bsgw6eu568a7x" path="res://Asset/19_Hospital_16x16.png" id="1_nnaie"]
-[ext_resource type="Script" uid="uid://6eem70g73jvi" path="res://Script/room_slot.gd" id="1_tfuvw"]
+[ext_resource type="Script" path="res://Script/room_slot.gd" id="1_tfuvw"]
 [ext_resource type="Texture2D" uid="uid://cy0784m50slvn" path="res://Asset/Room_Builder_3d_walls_16x16.png" id="2_kdtni"]
 [ext_resource type="Texture2D" uid="uid://b1ln556peil5c" path="res://Asset/Room_Builder_Floors_16x16.png" id="3_la5jr"]
 [ext_resource type="Texture2D" uid="uid://chi3lpcf84hv" path="res://Asset/Room_Builder_Walls_16x16.png" id="4_fbu4x"]

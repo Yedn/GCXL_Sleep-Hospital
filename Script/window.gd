@@ -4,6 +4,7 @@ class_name WindowUI
 @onready var table: Control = $Table
 @onready var patient:Patient = table.get_node("Patient")
 @onready var book: Control = $Book
+@onready var information: Control = $Information
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -11,8 +12,9 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
-	pass
+	$BookButton.visible = UpgradeData.upgrade[1]
 
 
 func _on_npc_accepted() -> void:
@@ -24,3 +26,8 @@ func _on_npc_accepted() -> void:
 func _on_npc_rejected() -> void:
 	patient.phase = 2
 	
+
+
+func _on_book_button_pressed() -> void:
+	information.visible = book.visible
+	book.visible = !book.visible

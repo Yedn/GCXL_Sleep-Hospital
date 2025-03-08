@@ -30,9 +30,11 @@ func enter():
 func exit():
 	pass
 
+@warning_ignore("unused_parameter")
 func update(delta:float):
 	pass
 
+@warning_ignore("unused_parameter")
 func physics_update(delta:float):
 	if navigation.is_navigation_finished() == false:
 		character.move_direction = character.to_local(navigation.get_next_path_position()).normalized()

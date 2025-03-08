@@ -17,6 +17,7 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("click"):
 		Data.choosed_id = get_room_under_mouse()

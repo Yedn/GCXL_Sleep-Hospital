@@ -30,6 +30,7 @@ func update(delta:float):
 	if Data.morning == true:
 		transition.emit(self,"GetUp")
 
+@warning_ignore("unused_parameter")
 func physics_update(delta:float):
 	if navigation.is_navigation_finished() == false:
 		character.move_direction = character.to_local(navigation.get_next_path_position()).normalized()

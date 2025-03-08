@@ -15,11 +15,13 @@ func _ready() -> void:
 	label.text = text
 	if right == true:
 		generate_text_right()
+		@warning_ignore("integer_division")
 		startpos = (clampi(int(text_length(text)/16),2,14)+1)*16+16
 		endpos = Vector2(0,endpos_y)
 	else:
 		generate_text_left()
 		startpos = -180#(clampi(int(text_length(text)/16),2,14)+1)*(-16)-16
+		@warning_ignore("integer_division")
 		endpos = Vector2(-144+clampi(int(text_length(text)/16),2,14)*16,endpos_y)
 	position.x = startpos
 
@@ -46,6 +48,7 @@ func text_length(_text:String) -> int:
 func generate_text_right():
 	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	label.position = Vector2(-148,2)
+	@warning_ignore("integer_division")
 	for i in clampi(int(text_length(text)/16),2,14)+1:
 		var pos:Vector2i = Vector2i(-(i+1),0)
 		if i==0:

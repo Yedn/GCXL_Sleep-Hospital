@@ -1,0 +1,288 @@
+[gd_scene load_steps=20 format=3 uid="uid://ditmwiljqiq82"]
+
+[ext_resource type="Script" path="res://Script/value.gd" id="1_lyqhe"]
+[ext_resource type="Shader" path="res://Shader/value_outline.gdshader" id="2_sxvpw"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lutqt"]
+resource_local_to_scene = true
+shader = ExtResource("2_sxvpw")
+shader_parameter/size = 0.045
+shader_parameter/rate = 2.0
+shader_parameter/color = null
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pfvos"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b34h4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_h23we"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vo6of"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u1xsy"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_f8u88"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0pt2e"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_txxuo"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4x4ir"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_omc0y"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m21ak"]
+
+[sub_resource type="Animation" id="Animation_hmhlw"]
+length = 0.001
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color:r")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0.117647, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect:color:g")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0.501961, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ColorRect:color:b")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(0.643137, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ColorRect:color:a")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(1, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+
+[sub_resource type="Animation" id="Animation_3obpb"]
+resource_name = "false_animation"
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color:r")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0.117647, -0.25, 0, 0.25, 0, 0.76872, -0.25, 0, 0.25, 0, 0.117647, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect:color:g")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0.501961, -0.25, 0, 0.25, 0, 0.255003, -0.25, 0, 0.25, 0, 0.501961, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ColorRect:color:b")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0.643137, -0.25, 0, 0.25, 0, 0.26927, -0.25, 0, 0.25, 0, 0.643137, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ColorRect:color:a")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+
+[sub_resource type="Animation" id="Animation_frn35"]
+resource_name = "finish"
+length = 0.2333
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color:r")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0.117647, -0.11665, 0, 0.11665, 0, 0.475623, -0.11665, 0, 0.11665, 0),
+"times": PackedFloat32Array(0, 0.2333)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect:color:g")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0.501961, -0.11665, 0, 0.11665, 0, 0.738771, -0.11665, 0, 0.11665, 0),
+"times": PackedFloat32Array(0, 0.2333)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ColorRect:color:b")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(0.643137, -0.11665, 0, 0.11665, 0, 0.482625, -0.11665, 0, 0.11665, 0),
+"times": PackedFloat32Array(0, 0.2333)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ColorRect:color:a")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(1, -0.11665, 0, 0.11665, 0, 1, -0.11665, 0, 0.11665, 0),
+"times": PackedFloat32Array(0, 0.2333)
+}
+
+[sub_resource type="Animation" id="Animation_0kw7t"]
+resource_name = "right_animation"
+tracks/0/type = "bezier"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color:r")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0.117647, -0.25, 0, 0.25, 0, 0.117647, -0.25, 0, 0.25, 0, 0.117647, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("ColorRect:color:g")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0.501961, -0.25, 0, 0.25, 0, 0.827451, -0.25, 0, 0.25, 0, 0.501961, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("ColorRect:color:b")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(0.643137, -0.25, 0, 0.25, 0, 0.643137, -0.25, 0, 0.25, 0, 0.643137, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+tracks/3/type = "bezier"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("ColorRect:color:a")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"handle_modes": PackedInt32Array(0, 0, 0),
+"points": PackedFloat32Array(1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.233333, 1)
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_iwiaa"]
+_data = {
+"RESET": SubResource("Animation_hmhlw"),
+"false_animation": SubResource("Animation_3obpb"),
+"finish": SubResource("Animation_frn35"),
+"right_animation": SubResource("Animation_0kw7t")
+}
+
+[node name="Value" type="Control"]
+custom_minimum_size = Vector2(150, 75)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 150.0
+offset_bottom = 75.0
+script = ExtResource("1_lyqhe")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_lutqt")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.117647, 0.501961, 0.643137, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "口腔和牙齿疾病
+(0/1)"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pfvos")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_b34h4")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_h23we")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_vo6of")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_u1xsy")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_f8u88")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_0pt2e")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxEmpty_txxuo")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_4x4ir")
+theme_override_styles/normal_mirrored = SubResource("StyleBoxEmpty_omc0y")
+theme_override_styles/normal = SubResource("StyleBoxEmpty_m21ak")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_iwiaa")
+}
+speed_scale = 4.0

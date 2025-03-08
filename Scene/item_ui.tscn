@@ -1,6 +1,6 @@
 [gd_scene load_steps=101 format=4 uid="uid://cc2qye4rp0dls"]
 
-[ext_resource type="Script" uid="uid://db1ugjil8agsp" path="res://Script/item_ui.gd" id="1_28rl2"]
+[ext_resource type="Script" path="res://Script/item_ui.gd" id="1_28rl2"]
 [ext_resource type="FontFile" uid="uid://cxsua0oj0kp4j" path="res://12X12.ttf" id="1_pc1o0"]
 [ext_resource type="FontFile" uid="uid://dbtc57ua6r3mh" path="res://16X16.ttf" id="2_kgkji"]
 [ext_resource type="Texture2D" uid="uid://bsgw6eu568a7x" path="res://Asset/19_Hospital_16x16.png" id="3_f14th"]

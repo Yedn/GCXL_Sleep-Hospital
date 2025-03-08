@@ -18,6 +18,7 @@ func _ready() -> void:
 	get_room()
 	generate_slot()
 
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	item_ui.item = get_slot_under_mouse()
 	if room != get_room():

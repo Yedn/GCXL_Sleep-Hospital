@@ -1,6 +1,6 @@
 [gd_scene load_steps=93 format=4 uid="uid://bw188psua6vcj"]
 
-[ext_resource type="Script" uid="uid://b63hnwf6k8noy" path="res://Script/config.gd" id="1_4kndq"]
+[ext_resource type="Script" path="res://Script/config.gd" id="1_4kndq"]
 [ext_resource type="FontFile" uid="uid://dbtc57ua6r3mh" path="res://16X16.ttf" id="1_uvvhd"]
 [ext_resource type="Texture2D" uid="uid://bsgw6eu568a7x" path="res://Asset/19_Hospital_16x16.png" id="2_jw1de"]
 [ext_resource type="Texture2D" uid="uid://cy0784m50slvn" path="res://Asset/Room_Builder_3d_walls_16x16.png" id="3_c25y1"]
@@ -6552,13 +6552,13 @@ text = "读档9"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 643.0
+offset_left = 669.0
 offset_top = 19.0
-offset_right = 767.0
+offset_right = 793.0
 offset_bottom = 42.0
 theme_override_fonts/font = ExtResource("70_4xwn7")
 theme_override_font_sizes/font_size = 12
-text = "再次点击以关闭界面->"
+text = "再次点击关闭界面->"
 
 [connection signal="pressed" from="Save" to="." method="_on_save_pressed"]
 [connection signal="pressed" from="GridContainer/Load0" to="." method="_on_load_0_pressed"]

@@ -24,3 +24,5 @@ class_name Room
 
 @export var npc_max:int
 @export var npc_list:Array
+
+@export var digitisation:bool = false

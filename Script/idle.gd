@@ -21,6 +21,7 @@ func enter():
 	character.move_direction = Vector2(0,0)
 	#random_endpos()
 
+@warning_ignore("unused_parameter")
 func update(delta:float):
 	pass
 	#if wander_time > 0:
@@ -32,6 +33,7 @@ func update(delta:float):
 		#transition.emit(self,"GoRoom")
 	
 
+@warning_ignore("unused_parameter")
 func physics_update(delta:float):
 	if navigation.is_navigation_finished() == false:
 		character.move_direction = character.to_local(navigation.get_next_path_position()).normalized()

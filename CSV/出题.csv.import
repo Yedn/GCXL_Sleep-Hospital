@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cn20f1wujdiy5"
+
+[deps]
+
+files=["res://CSV/出题.D.translation", "res://CSV/出题.LungDiag模型.translation", "res://CSV/出题.岐黄问道大模型.translation", "res://CSV/出题.TCMLLM.translation", "res://CSV/出题.BioMedLM.translation", "res://CSV/出题.BioMedLM是斯坦福基础模型研究中心（CRFM）和MosaicML联合开发的模型，一种经训练可以解释生物医学语言的大型语言模型。.translation"]
+
+source_file="res://CSV/出题.csv"
+dest_files=["res://CSV/出题.D.translation", "res://CSV/出题.LungDiag模型.translation", "res://CSV/出题.岐黄问道大模型.translation", "res://CSV/出题.TCMLLM.translation", "res://CSV/出题.BioMedLM.translation", "res://CSV/出题.BioMedLM是斯坦福基础模型研究中心（CRFM）和MosaicML联合开发的模型，一种经训练可以解释生物医学语言的大型语言模型。.translation"]
+
+[params]
+
+compress=true
+delimiter=0

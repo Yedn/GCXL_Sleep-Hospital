@@ -29,6 +29,7 @@ func _ready() -> void:
 		frame_dic[i] = load("res://Animation/"+str(i)+".tres")
 		i += 1
 
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	patient0 = get_patient(0)
 	patient1 = get_patient(1)
@@ -112,6 +113,7 @@ func _on_timer_2_timeout() -> void:
 	if phase == 2:
 		phase = 3
 
+@warning_ignore("unused_signal")
 signal duihua_end
 
 

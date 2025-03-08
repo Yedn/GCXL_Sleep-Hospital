@@ -9,6 +9,7 @@ class_name ShopSlot
 @onready var main:Main = get_node("/root/Main")
 
 @export var type:int
+@warning_ignore("unused_private_class_variable")
 @export var _name:String
 @export var id:int
 @export var item:Item
@@ -19,6 +20,7 @@ func _ready() -> void:
 	load_item()
 	update()
 
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	update()
 
@@ -80,7 +82,9 @@ func load_item():
 	price_label.text = str(item.price-now_price)+"G"
 
 func get_item():
+	@warning_ignore("unused_variable")
 	var file_path:String
+	@warning_ignore("unused_variable")
 	var path:String
 	match type:
 		0:
@@ -91,6 +95,7 @@ func get_item():
 			item = Data.item_source_dic[2][id]
 
 func get_room() -> Room:
+	@warning_ignore("shadowed_variable")
 	var id:int = Data.choosed_id
 	if 1<=id and id<=7:
 		return Data.room_list[id-1]

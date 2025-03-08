@@ -29,6 +29,7 @@ func _process(delta: float) -> void:
 		time_left = wait_time
 	position = position.move_toward(Vector2(160,-20*(sum_text_num-now_text_num)+10),delta*speed)
 
+@warning_ignore("shadowed_variable")
 func generate_text(id:int,phase:int):
 	time_left = wait_time
 	now_text_num += 1

@@ -1,10 +1,11 @@
-[gd_scene load_steps=12 format=4 uid="uid://buxfsv1bsjvlc"]
+[gd_scene load_steps=13 format=4 uid="uid://buxfsv1bsjvlc"]
 
-[ext_resource type="Script" uid="uid://e8pp4nndsv4u" path="res://Script/shop.gd" id="1_qxat4"]
+[ext_resource type="Script" path="res://Script/shop.gd" id="1_qxat4"]
 [ext_resource type="PackedScene" uid="uid://ccaywf6a3wcx5" path="res://Scene/room_ui.tscn" id="1_t6tj8"]
 [ext_resource type="Texture2D" uid="uid://dl3w5sts71g2j" path="res://Asset/UI books & more.png" id="2_60mjo"]
 [ext_resource type="PackedScene" uid="uid://gbma1a3nhvvj" path="res://Scene/shop_ui.tscn" id="2_jt5kv"]
 [ext_resource type="Texture2D" uid="uid://dyrtb20f8qyim" path="res://Asset/Room_Builder_borders_16x16.png" id="3_ygl6e"]
+[ext_resource type="PackedScene" uid="uid://b4y3yqi42v3is" path="res://Scene/upgrade_ui.tscn" id="6_oqkht"]
 [ext_resource type="PackedScene" uid="uid://cc2qye4rp0dls" path="res://Scene/item_ui.tscn" id="6_qthb3"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_jksby"]
@@ -1202,6 +1203,10 @@ tile_set = SubResource("TileSet_hv6xs")
 [node name="RoomUI" parent="." instance=ExtResource("1_t6tj8")]
 
 [node name="ItemUI" parent="." instance=ExtResource("6_qthb3")]
+offset_left = 192.0
+offset_right = 368.0
+
+[node name="UpgradeUI" parent="." instance=ExtResource("6_oqkht")]
 offset_left = 192.0
 offset_right = 368.0
 

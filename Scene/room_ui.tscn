@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3 uid="uid://ccaywf6a3wcx5"]
 
 [ext_resource type="FontFile" uid="uid://dbtc57ua6r3mh" path="res://16X16.ttf" id="1_da516"]
-[ext_resource type="Script" uid="uid://du04xb8o3fcjx" path="res://Script/room_ui.gd" id="1_nhqn8"]
+[ext_resource type="Script" path="res://Script/room_ui.gd" id="1_nhqn8"]
 [ext_resource type="PackedScene" uid="uid://doxbrhptt1xjr" path="res://Scene/room_slot.tscn" id="1_t8f48"]
-[ext_resource type="Script" uid="uid://cxj80ky24imw3" path="res://Script/title.gd" id="3_21f70"]
+[ext_resource type="Script" path="res://Script/title.gd" id="3_21f70"]
 [ext_resource type="Texture2D" uid="uid://dl3w5sts71g2j" path="res://Asset/UI books & more.png" id="5_5j37f"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s3nqe"]

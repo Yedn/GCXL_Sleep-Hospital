@@ -4,6 +4,7 @@ extends Node
 
 @export var item_list:Dictionary
 @export var money:int = 500
+@export var suanli:int = 50
 @export var day:int
 @export var frame:float
 
@@ -29,6 +30,8 @@ var line_max:int = 100
 var room_startpos:Array = [Vector2i(0,12),Vector2i(7,0),Vector2i(7,12),Vector2i(14,0),Vector2i(14,12),Vector2i(21,0),Vector2i(21,12)]
 
 var item_source_dic:Dictionary = {0:{},1:{},2:{}}
+
+@export var guide_open:bool = false
 
 func load_dic():
 	for i in Data.bed_num:
@@ -78,12 +81,6 @@ func room0(room:Room):
 	room.decoration_pos = {0:Vector2i(0,0),1:Vector2i(5,0),2:Vector2i(1,0),3:Vector2i(4,0)}
 	room.facility_num = 4
 	room.facility_pos = {0:Vector2i(0,2),1:Vector2i(4,2),2:Vector2i(0,4),3:Vector2i(4,4)}
-	#reset_dic(room.bed_list,room.bed_num)
-	#reset_dic(room.decoration_list,room.decoration_num)
-	#reset_dic(room.facility_list,room.facility_num)
-	#room.bed_list[0] = load_item(0,0)
-	#room.decoration_list[0] = load_item(0,2)
-	#room.facility_list[0] = load_item(0,1)
 	match room.id:
 		0:
 			room.bed_list[0] = load_item(0,0)
@@ -147,6 +144,7 @@ func _save():
 	if OS.get_name() == "Windows":
 		ResourceSaver.save(data,"C:/Users/Administrator/AppData/Roaming/Godot/app_userdata/test17/save_%d.tres"%Data.day)
 
+@warning_ignore("shadowed_variable")
 func _load(day:int):
 	var data:SaveData
 	if OS.get_name() == "Windows":

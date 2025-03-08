@@ -30,6 +30,7 @@ func _process(delta: float) -> void:
 
 func update():
 	skip_npc_num = Data.skip_npc_num
+	@warning_ignore("unused_variable")
 	var remark_num:int = a_remark_num+b_remark_num+c_remark_num
 	total_money = 0
 	for i in Data.complete_npc_pay:

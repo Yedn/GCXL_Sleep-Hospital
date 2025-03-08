@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://3fjifharnxsr"]
+[gd_scene load_steps=6 format=3 uid="uid://3fjifharnxsr"]
 
 [ext_resource type="PackedScene" uid="uid://b6ckajoc2elsw" path="res://Scene/table.tscn" id="1_45c00"]
-[ext_resource type="Script" uid="uid://b3sv0taldo05y" path="res://Script/window.gd" id="1_gfqj1"]
+[ext_resource type="Script" path="res://Script/window.gd" id="1_gfqj1"]
 [ext_resource type="PackedScene" uid="uid://deippaa0i2ms2" path="res://Scene/book.tscn" id="2_fk8v2"]
+[ext_resource type="PackedScene" uid="uid://bm807kgeqveqk" path="res://Scene/information.tscn" id="4_1qsr0"]
+[ext_resource type="Texture2D" uid="uid://ckp282ttihqmj" path="res://cog.png" id="4_pdwqi"]
 
 [node name="Window" type="Control"]
 z_index = -1
@@ -27,3 +29,19 @@ offset_left = 192.0
 offset_right = 368.0
 
 [node name="Book" parent="." instance=ExtResource("2_fk8v2")]
+
+[node name="Information" parent="." instance=ExtResource("4_1qsr0")]
+visible = false
+
+[node name="BookButton" type="TextureButton" parent="."]
+z_index = 3
+layout_mode = 1
+offset_left = 88.0
+offset_top = 280.0
+offset_right = 105.0
+offset_bottom = 297.0
+texture_normal = ExtResource("4_pdwqi")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="pressed" from="BookButton" to="." method="_on_book_button_pressed"]

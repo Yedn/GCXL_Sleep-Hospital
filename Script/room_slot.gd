@@ -10,6 +10,7 @@ class_name RoomSlot
 
 @export var type:int
 @export var id:int
+@warning_ignore("unused_private_class_variable")
 @export var _name:String
 @export var item:Item
 @export var room:Room
@@ -23,6 +24,7 @@ func _ready() -> void:
 	else:
 		load_empty()
 
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	pass
 
@@ -85,6 +87,7 @@ func _on_button_pressed() -> void:
 	#main.update()
 
 func get_room() -> Room:
+	@warning_ignore("shadowed_variable")
 	var id:int = Data.choosed_id
 	if 1<=id and id<=7:
 		return Data.room_list[id-1]

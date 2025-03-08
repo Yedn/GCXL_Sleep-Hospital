@@ -7,12 +7,14 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	pass
 
 func update():
 	for i in Data.room_list:
 		var room:Room = Data.room_list[i]
+		@warning_ignore("unused_variable")
 		var startpos:Vector2i = room.pos
 		for id in room.bed_list:
 			var bed:Item = room.bed_list[id]

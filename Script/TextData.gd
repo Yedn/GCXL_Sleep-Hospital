@@ -27,6 +27,9 @@ var text:Dictionary = {
 			],[
 				"0治不了",
 				"1那我走"
+			],[
+				"学习压力大,整天整夜睡不着",
+				["压力大","睡不着"]
 			]
 		],
 	1:#hekafei#1,3,2,6,1
@@ -49,6 +52,9 @@ var text:Dictionary = {
 			],[
 				"0治不了",
 				"1那我走"
+			],[
+				"喝很多咖啡,翻来覆去睡不着",
+				["咖啡","睡不着"]
 			]
 		],
 	2:#renchuang#3,4,4,1,1
@@ -1629,3 +1635,40 @@ var text:Dictionary = {
 			]
 		],
 """
+
+@export var value_dic:Dictionary = {
+	0:"失眠症",
+	1:"梦魇",
+	2:"夜惊症",
+	3:"遗尿症",
+	4:"睡眠呼吸暂停综合征",
+	5:"梦游症",
+	6:"嗜睡症",
+	7:"发作性睡病",
+	8:"快速眼动睡眠行为障碍",
+	9:"磨牙症"
+}
+@export var unlock_dic:Dictionary = {
+	0:false,
+	1:false,
+	2:false,
+	3:false,
+	4:false,
+	5:false,
+	6:false,
+	7:false,
+	8:false,
+	9:false
+}
+@export var key_dic:Dictionary = {
+	"睡不着":0,
+	"做噩梦":1,
+	"半夜惊醒":2,
+	"半夜床湿":3,
+	"夜里乱走":5,
+	"打呼":4,
+	"打瞌睡":6,
+	"突然睡着":7,
+	"梦中打架":8,
+	"早上牙疼":9,
+}

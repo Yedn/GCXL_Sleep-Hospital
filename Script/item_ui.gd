@@ -13,11 +13,13 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
+@warning_ignore("unused_parameter")
 func _process(delta: float) -> void:
 	if item != now_item:
 		if item != null:
 			load_empty()
 			load_item()
+			$"../UpgradeUI".visible = false
 		else:
 			load_empty()
 
@@ -58,3 +60,4 @@ func load_empty():
 			item_tile.set_cell(cell)
 	name_label.text = "\n[center]空[center]"
 	label.text = ""
+	$"../UpgradeUI".visible = true

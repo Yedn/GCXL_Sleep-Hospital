@@ -56,6 +56,7 @@ func _ready() -> void:
 	animated.play("idle_down")
 
 @onready var timer: Timer = $Sprite2D/Timer
+@warning_ignore("unused_parameter")
 func _physics_process(delta: float) -> void:
 	#sprite_2d.global_position = global_position
 	if niao == true:
@@ -67,6 +68,7 @@ func _physics_process(delta: float) -> void:
 	else:
 		sprite_2d.visible = false
 	var pos:Vector2 = global_position-Vector2(-424,-75)
+	@warning_ignore("integer_division")
 	var loc:Vector2 = Vector2(pos.x-(864-486)/2,pos.y)/486
 	sprite_2d.material.set_shader_parameter("center",loc)
 	var percent:float = 1-timer.time_left/timer.wait_time
@@ -109,6 +111,7 @@ func compute():
 		point += trans[i]*value[i]
 	print("%d房 %d床 %d"%[room.id+1,target_bed+1,point])
 
+@warning_ignore("shadowed_variable")
 func compute_room_value(room:Room,target_bed:int) -> Array:
 	var value:Array = [0,0,0,0,0]
 	if target_bed != -1:

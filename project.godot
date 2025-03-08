@@ -20,6 +20,8 @@ config/icon="res://icon.svg"
 Data="*res://Script/Data.gd"
 NpcData="*res://Script/NpcData.gd"
 TextData="*res://Script/TextData.gd"
+UpgradeData="*res://Script/UpgradeData.gd"
+FileLoad="*res://Script/FileLoad.gd"
 
 [display]
 

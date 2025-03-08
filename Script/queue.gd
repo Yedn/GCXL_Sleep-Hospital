@@ -30,6 +30,7 @@ func exit():
 		Data.line.remove_at(Data.line.find(character))
 
 var duihua_end:bool = false
+@warning_ignore("unused_parameter")
 func update(delta:float):
 	if character.room != null and duihua_end == true:
 		character.room.npc_list.append(character)
@@ -40,6 +41,7 @@ func update(delta:float):
 		if Data.animation_night == true and Data.line[0] != character:
 			transition.emit(self,"Back")
 
+@warning_ignore("unused_parameter")
 func physics_update(delta:float):
 	if navigation_agent_2d.is_navigation_finished() == false:
 		character.move_direction = character.to_local(navigation_agent_2d.get_next_path_position()).normalized()
