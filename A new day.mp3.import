@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8de0grpsdr8g"
+path="res://.godot/imported/A new day.mp3-a5ec2c9fd79d1c957f6f93162091daae.mp3str"
+
+[deps]
+
+source_file="res://A new day.mp3"
+dest_files=["res://.godot/imported/A new day.mp3-a5ec2c9fd79d1c957f6f93162091daae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

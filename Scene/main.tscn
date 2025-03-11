@@ -1,4 +1,4 @@
-[gd_scene load_steps=200 format=4 uid="uid://4mg0uhvjh21w"]
+[gd_scene load_steps=204 format=4 uid="uid://4mg0uhvjh21w"]
 
 [ext_resource type="Script" path="res://Script/camera_2d.gd" id="1_ddisr"]
 [ext_resource type="Script" path="res://Script/main.gd" id="1_j6t8t"]
@@ -99,11 +99,15 @@
 [ext_resource type="Texture2D" uid="uid://ckp282ttihqmj" path="res://cog.png" id="94_0tgjl"]
 [ext_resource type="Script" path="res://Script/menu.gd" id="94_mutcd"]
 [ext_resource type="Texture2D" uid="uid://b1slto3t1bcpa" path="res://speaker.png" id="96_famqp"]
-[ext_resource type="AudioStream" uid="uid://blvb303a8psao" path="res://sound.mp3" id="97_ghf0a"]
 [ext_resource type="Script" path="res://Script/texture_button.gd" id="97_mq6dy"]
 [ext_resource type="Texture2D" uid="uid://mktw8rg7b4q5" path="res://e3ef722.png" id="99_h6uiy"]
 [ext_resource type="Texture2D" uid="uid://7fq55uvtd2ie" path="res://a59.png" id="100_r3m0b"]
+[ext_resource type="Script" path="res://Script/audio_stream_player.gd" id="101_5sei7"]
+[ext_resource type="AudioStream" uid="uid://bloyyokmoqgdl" path="res://Wicked Thoughts.mp3" id="102_oemlu"]
+[ext_resource type="AudioStream" uid="uid://ctn4pfjwvr7tv" path="res://Serenity.mp3" id="103_tc57x"]
+[ext_resource type="AudioStream" uid="uid://k5bn1jw0rqox" path="res://Cascade.mp3" id="104_1hc23"]
 [ext_resource type="PackedScene" uid="uid://b6jf2q0lpgg6v" path="res://Scene/board.tscn" id="104_uoj44"]
+[ext_resource type="AudioStream" uid="uid://8de0grpsdr8g" path="res://A new day.mp3" id="105_q0bji"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1jwjn"]
 texture = ExtResource("4_s7ai3")
@@ -11958,7 +11962,8 @@ stretch_mode = 0
 script = ExtResource("97_mq6dy")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("97_ghf0a")
+script = ExtResource("101_5sei7")
+music_arr = Array[AudioStream]([ExtResource("102_oemlu"), ExtResource("103_tc57x"), ExtResource("104_1hc23"), ExtResource("105_q0bji")])
 
 [node name="Ending0" type="Control" parent="."]
 visible = false
@@ -12156,3 +12161,4 @@ offset_bottom = -32.0
 [connection signal="pressed" from="Menu/Start" to="Menu" method="_on_start_pressed"]
 [connection signal="pressed" from="ConfigButton" to="ConfigButton" method="_on_pressed"]
 [connection signal="pressed" from="TextureButton" to="TextureButton" method="_on_pressed"]
+[connection signal="finished" from="AudioStreamPlayer" to="AudioStreamPlayer" method="_on_finished"]

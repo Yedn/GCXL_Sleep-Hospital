@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://buoes8c0k4w5g"]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://dqigkibkd41kh"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_nng5h"]
 
@@ -9,7 +9,7 @@ description = "能让人自律的金床"
 price = 800
 value = [4, 2, 2, 2, 10]
 type = 0
-id = 0
+id = 16
 source_size = Vector2i(0, 0)
 source_pos = Vector2i(0, 0)
 delta_pos = Vector2i(0, 0)

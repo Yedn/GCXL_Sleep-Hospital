@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://d4isseos2yjbv"]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_hv8o3"]
 
@@ -9,7 +9,7 @@ description = "普通的铜床,各方面都比较均衡"
 price = 200
 value = [4, 3, 3, 2, 2]
 type = 0
-id = 0
+id = 5
 source_size = Vector2i(0, 0)
 source_pos = Vector2i(0, 0)
 delta_pos = Vector2i(0, 0)

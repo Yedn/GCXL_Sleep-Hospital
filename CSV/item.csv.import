@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bkq4kvuynhnu0"
+
+[deps]
+
+files=["res://CSV/item.0.translation", "res://CSV/item.普通床(木).translation", "res://CSV/item.普通的木床,各方面都比较均衡.translation", "res://CSV/item.100.translation", "res://CSV/item.2.translation", "res://CSV/item.2.translation", "res://CSV/item.2.translation", "res://CSV/item.2.translation", "res://CSV/item.1.translation", "res://CSV/item.7.translation"]
+
+source_file="res://CSV/item.csv"
+dest_files=["res://CSV/item.0.translation", "res://CSV/item.普通床(木).translation", "res://CSV/item.普通的木床,各方面都比较均衡.translation", "res://CSV/item.100.translation", "res://CSV/item.2.translation", "res://CSV/item.2.translation", "res://CSV/item.2.translation", "res://CSV/item.2.translation", "res://CSV/item.1.translation", "res://CSV/item.7.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="SaveData" load_steps=32 format=3]
+[gd_resource type="Resource" script_class="SaveData" load_steps=32 format=3 uid="uid://wuft3cgfabwk"]
 
 [ext_resource type="Script" path="res://Script/Room.gd" id="1_r5l6t"]
 [ext_resource type="Script" path="res://Script/Item.gd" id="2_46di7"]
@@ -626,3 +626,4 @@ room_list = {
 5: SubResource("PackedScene_5dglw"),
 6: SubResource("PackedScene_uywdm")
 }
+frame = 0

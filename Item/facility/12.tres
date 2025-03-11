@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://c1sc74to1uyn"]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_h7t0l"]
 
@@ -9,9 +9,9 @@ description = "能够依靠患者的言行举止分析患者的精神状态，�
 price = 400
 value = [0, 1, 0, 6, 2]
 type = 2
-id = 0
-source_size = Vector2i(2, 2)
-source_pos = Vector2i(7, 60)
+id = 12
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
 delta_pos = Vector2i(0, 0)
 level = 0
 pattern_id = -1

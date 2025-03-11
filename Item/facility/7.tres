@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cjt3va4862dmr"]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_bcjgj"]
 
@@ -9,9 +9,9 @@ description = "适当运动可以缓解压力"
 price = 150
 value = [0, 0, 3, 0, 3]
 type = 2
-id = 0
-source_size = Vector2i(2, 2)
-source_pos = Vector2i(4, 63)
+id = 7
+source_size = Vector2i(0, 0)
+source_pos = Vector2i(0, 0)
 delta_pos = Vector2i(0, 0)
 level = 0
 pattern_id = -1

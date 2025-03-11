@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://b8m14kfiu6ea6"]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://ypwpbv3mwsgx"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_wgq07"]
 
@@ -9,7 +9,7 @@ description = "十分舒适的铜床,具有云的质感"
 price = 200
 value = [2, 6, 2, 1, 1]
 type = 0
-id = 0
+id = 9
 source_size = Vector2i(0, 0)
 source_pos = Vector2i(0, 0)
 delta_pos = Vector2i(0, 0)

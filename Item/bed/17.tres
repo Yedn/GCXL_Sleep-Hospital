@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://dqt3e2cbc3p46"]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://xngy4hjc1nmv"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_b1cej"]
 
@@ -9,7 +9,7 @@ description = "能在患者睡眠时缓慢释放药物的金床"
 price = 800
 value = [4, 2, 2, 10, 2]
 type = 0
-id = 0
+id = 17
 source_size = Vector2i(0, 0)
 source_pos = Vector2i(0, 0)
 delta_pos = Vector2i(0, 0)

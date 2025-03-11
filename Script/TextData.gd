@@ -5,6 +5,18 @@ func _ready() -> void:
 		if text[i].size()<=3:
 			text[i].append(["0安排好了","1谢谢医生"])
 			text[i].append(["0治不了","1那我走"])
+	for i in 78:
+		if text[i].size()<=5:
+			text[i].append([
+				"喝很多咖啡,翻来覆去睡不着",
+				["咖啡","睡不着"]
+			])
+
+func read_text():
+	var f = FileAccess.open("res://CSV/text.csv",FileAccess.WRITE_READ)
+	for i in 78:
+		var arr:Array = text[i]
+		f.store_csv_line(PackedStringArray(arr))
 
 var text:Dictionary = {
 	0:#shangxue#2,3,6,1,1
