@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://dprthuf5pcik1"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_yc3f1"]
 
 [resource]
 script = ExtResource("1_yc3f1")
 item_name = "等身模型"
-description = "精致的模型"
+description = "冰蓝色发丝如海浪翻卷，基座嵌着青草绒布与白云纹饰。当指尖轻触，硅胶材质泛起暖黄光晕，拟态心跳的韵律光波在LED矩阵间流转，用数字时代的童趣语言无声抚慰焦虑心灵。"
 price = 100
 value = [4, 0, 2, 0, 0]
 type = 1

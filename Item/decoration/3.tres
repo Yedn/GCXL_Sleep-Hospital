@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_b4vfs")
 item_name = "热带树"
-description = "种在盆栽中的热带树"
+description = "医院室内绿植选用的造型苍劲的亚热带观叶植物，其盘旋枝干呈螺旋上升态势，羽状复叶层叠舒展，配以米灰色哑光陶盆，通过有机形态与极简容器对比，营造出兼具生命张力与宁静疗愈感的医疗空间美学体系。"
 price = 50
 value = [2, 0, 0, 1, 0]
 type = 1

@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_0p0bf")
 item_name = "小礼物"
-description = "送给患者的小礼物"
+description = "这个装饰呈现出简洁明快的线条与色彩对比，象征着现代医疗环境的清新与专业。蓝色基调传递出冷静与安宁，有助于营造有利于患者康复的氛围。"
 price = 100
 value = [2, 1, 2, 0, 0]
 type = 1

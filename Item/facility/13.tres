@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://bi2bhk2huxggb"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_h5rvq"]
 
 [resource]
 script = ExtResource("1_h5rvq")
 item_name = "高级洗手台"
-description = "装饰精美的洗手台"
+description = "该洗手台设计简洁，符合医疗环境的高标准要求。其平整台面易于清洁，下方储物空间可保持环境整洁有序。整体布局合理，有助于提升医院感染控制效果。"
 price = 400
 value = [4, 3, 2, 2, 0]
 type = 2

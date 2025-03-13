@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_ewi0d")
 item_name = "世界树幼苗"
-description = "再过5000年就长大了"
+description = "青瓷陶盆中一丛绿萝正舒展羽状新叶，晨光斜照下叶脉如金丝游走，釉面折射出粼粼水波纹。蓬松的叶团在消毒水气息中轻轻摇曳，仿佛凝固的春日溪涧，将疗愈的绿意沁入苍白的墙垣。"
 price = 250
 value = [6, 2, 1, 0, 0]
 type = 1

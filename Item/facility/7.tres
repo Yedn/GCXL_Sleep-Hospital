@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://duj2lw6ntiajk"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_bcjgj"]
 
 [resource]
 script = ExtResource("1_bcjgj")
 item_name = "跑步机"
-description = "适当运动可以缓解压力"
+description = "这是一台位于医院康复科的先进跑步机，设计简洁现代。它配备了大尺寸显示屏，可实时监测心率、步数及速度，并具备多种训练模式，便于患者进行个性化康复训练。"
 price = 150
 value = [0, 0, 3, 0, 3]
 type = 2

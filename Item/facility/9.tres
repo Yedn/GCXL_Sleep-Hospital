@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://in5wbkcq135w"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_pboeg"]
 
 [resource]
 script = ExtResource("1_pboeg")
 item_name = "大鼓"
-description = "一个可以帮助患者释放压力的乐器"
+description = "这是一种医院中用于缓解焦虑的击打乐器，其圆润的外形和柔和的色彩设计，有助于营造放松的氛围，促进患者的情绪舒缓。"
 price = 150
 value = [0, 2, 4, 0, 0]
 type = 2

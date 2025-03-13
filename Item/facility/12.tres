@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://dehwngnktjsq8"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_h7t0l"]
 
 [resource]
 script = ExtResource("1_h7t0l")
 item_name = "多功能分析仪"
-description = "能够依靠患者的言行举止分析患者的精神状态，从而提供最佳的治疗方案"
+description = "这是一台医院中用于监测和调控患者生理参数的重要设备。它具备精准的传感与显示功能，能够实时提供关键的生命体征数据，为临床决策提供可靠支持。"
 price = 400
 value = [0, 1, 0, 6, 2]
 type = 2

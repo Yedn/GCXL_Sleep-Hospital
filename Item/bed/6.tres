@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cy6avnt4yfj6r"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_7qfl0"]
 
 [resource]
 script = ExtResource("1_7qfl0")
 item_name = "自律床(铜)"
-description = "能让人自律的铜床"
+description = "自律床的升级版本，该床采用高密度多导生理信号同步采集技术，集成边缘计算驱动的深度学习架构，通过量化分析自主神经张力、HPA轴活性及GABA能系统动态，构建基于强化学习的睡眠-觉醒周期自适应优化引擎，配合毫米波雷达非接触式生命体征追踪，实现神经可塑性驱动的睡眠稳态精准调控。"
 price = 200
 value = [2, 2, 1, 1, 6]
 type = 0

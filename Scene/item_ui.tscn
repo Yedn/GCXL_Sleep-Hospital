@@ -1,7 +1,6 @@
-[gd_scene load_steps=101 format=4 uid="uid://cc2qye4rp0dls"]
+[gd_scene load_steps=100 format=4 uid="uid://cc2qye4rp0dls"]
 
 [ext_resource type="Script" path="res://Script/item_ui.gd" id="1_28rl2"]
-[ext_resource type="FontFile" uid="uid://cxsua0oj0kp4j" path="res://12X12.ttf" id="1_pc1o0"]
 [ext_resource type="FontFile" uid="uid://dbtc57ua6r3mh" path="res://16X16.ttf" id="2_kgkji"]
 [ext_resource type="Texture2D" uid="uid://bsgw6eu568a7x" path="res://Asset/19_Hospital_16x16.png" id="3_f14th"]
 [ext_resource type="Texture2D" uid="uid://cy0784m50slvn" path="res://Asset/Room_Builder_3d_walls_16x16.png" id="4_0va7l"]
@@ -12643,7 +12642,6 @@ offset_bottom = 448.0
 script = ExtResource("1_28rl2")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -12671,15 +12669,11 @@ text = "
 layout_mode = 0
 offset_left = 16.0
 offset_top = 109.0
-offset_right = 174.0
+offset_right = 165.0
 offset_bottom = 394.0
 theme_override_colors/default_color = Color(0, 0, 0, 1)
-theme_override_constants/line_separation = 2
-theme_override_fonts/normal_font = ExtResource("1_pc1o0")
 theme_override_font_sizes/normal_font_size = 12
 bbcode_enabled = true
-text = "
-"
 
 [node name="Back" type="TileMapLayer" parent="."]
 position = Vector2(56, 40)

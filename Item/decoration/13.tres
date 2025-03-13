@@ -1,13 +1,13 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cpvvbnamsv7uc"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_qfaug"]
 
 [resource]
 script = ExtResource("1_qfaug")
-item_name = "高等数学"
-description = "禁忌之书"
+item_name = "橡木书架"
+description = "深褐橡木书架如时光长廊，暖金顶光倾泻于翻开的羊皮古籍上，绛红缎带如生命之河蜿蜒于泛黄纸页，书脊烫金纹饰在暗处流转微芒，古铜藏书章折射着医学图腾的辉光——这座文字圣殿将理性的严谨与诗性的疗愈，凝练成抚慰心灵的静谧磁场。"
 price = 250
-value = [0, -6, -6, 12, 12]
+value = [4, 0, 0, 2, 2]
 type = 1
 id = 13
 source_size = Vector2i(0, 0)

@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_2d5uk")
 item_name = "高级红花"
-description = "名贵的稀有红花"
+description = "在医院环境中，这束色彩鲜艳的花卉装饰无疑为氛围增添了一抹亮色。其鲜艳的红色花朵与绿色叶子的搭配，不仅象征着生命与活力，还传递着温暖与关怀，有助于缓解患者的紧张情绪，提升整体空间的温馨感。"
 price = 250
 value = [8, 0, 1, 0, 1]
 type = 1

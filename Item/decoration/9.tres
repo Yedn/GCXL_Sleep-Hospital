@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_a5v80")
 item_name = "陶瓷"
-description = "易碎勿碰"
+description = "该陶瓷饰品呈现出蓝白相间的色彩，圆润的造型流露着温馨与宁静，仿佛为医院环境增添了一丝柔和与安宁，有助于缓解患者的紧张情绪。其简约而不失雅致的设计，既体现了现代艺术的审美，又兼顾了实用与观赏的双重价值。"
 price = 100
 value = [2, 0, 2, 0, 1]
 type = 1

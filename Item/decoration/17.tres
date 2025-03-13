@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://bj45a6ac770n"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_6ax33"]
 
 [resource]
 script = ExtResource("1_6ax33")
 item_name = "高级蓝花"
-description = "名贵的稀有蓝花"
+description = "在医院环境中，这束蓝色花朵被精心插放在一个简约而现代的花瓶中。蓝色花瓣传递出宁静与平和，为医院增添了一抹柔和的色彩，有助于缓解患者的焦虑和紧张情绪。花瓶的简洁设计不仅体现了医疗空间的现代感，还突显了花束的美丽，营造出清新、宁静的氛围。这种布置不仅美化了医院空间，还传递出关怀与温暖，有助于提升患者的康复体验。"
 price = 250
 value = [8, 1, 1, 0, 0]
 type = 1

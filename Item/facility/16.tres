@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://djs8ot55ulc4s"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_n23gl"]
 
 [resource]
 script = ExtResource("1_n23gl")
-item_name = "王座"
-description = "坐上去会很舒适"
+item_name = "宝座"
+description = "宝座框架采用金色材质，彰显高贵与庄重，红色坐垫柔软舒适，点缀以黄色细节，整体设计融合了现代与传统的元素，既具视觉冲击力又显温馨。"
 price = 400
 value = [6, 2, 2, 1, 1]
 type = 2

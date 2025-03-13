@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://blyou7d0d7o3"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_ieott"]
 
 [resource]
 script = ExtResource("1_ieott")
 item_name = "智能日程表"
-description = "帮助患者调整作息"
+description = "该日程表展示了医院每日的手术与诊疗安排，蓝色条代表手术安排，绿色条代表诊疗或其他重要活动，有助于医护团队高效管理时间。"
 price = 400
 value = [2, 1, 1, 2, 4]
 type = 2

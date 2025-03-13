@@ -1,10 +1,10 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://bf42d33wo3ghs"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_j6fpv"]
 
 [resource]
 script = ExtResource("1_j6fpv")
-item_name = "高性能机器人"
+item_name = "医疗机器人"
 description = "能在合适的时机给予患者帮助的机器人"
 price = 75
 value = [0, 1, 1, 1, 0]

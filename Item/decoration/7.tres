@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_uxa2k")
 item_name = "古树"
-description = "有一些年代的树"
+description = "这株盆景枝干如虬龙盘踞，苍劲中透出盎然生机，油润叶片似翡翠雕琢，在素净墙面前舒展成微型森林。阳光滤过叶隙洒下斑驳金箔，木质肌理间流淌着时光的韵律，将自然疗愈力凝练成方寸间的生命诗篇，为医疗空间注入静谧能量。"
 price = 100
 value = [4, 1, 1, 0, 0]
 type = 1

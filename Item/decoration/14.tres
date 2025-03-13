@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://c8ehiymoa205r"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_hg7p8"]
 
 [resource]
 script = ExtResource("1_hg7p8")
 item_name = "地球仪"
-description = "可以看到世界各地"
+description = "这个地球仪摆件精致且生动，其圆润的轮廓和色彩鲜明的球体设计，为医院环境增添了一抹活泼与探索的气息，激发人们对世界的好奇。"
 price = 250
 value = [2, 3, 2, 0, 0]
 type = 1

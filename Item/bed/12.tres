@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_gnw0d")
 item_name = "医疗床(银)"
-description = "能在患者睡眠时缓慢释放药物的银床"
+description = "本设备搭载多源生理信号融合分析引擎，集成经颅微电流刺激（tACS）与自适应迷走神经复合脉冲技术，基于非线性动力学模型构建睡眠-觉醒周期闭环干预系统。经多中心RCT及Meta分析证实，其可实现NREM三期睡眠时长提升42%、睡眠维持效率达94.3%，符合AASM标准Ⅲ类医疗器械认证要求。"
 price = 400
 value = [2, 2, 2, 8, 2]
 type = 0

@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_m3tvm")
 item_name = "果树"
-description = "会长出可食用的果子"
+description = "翠色枝叶如瀑倾泻，珊瑚珠果垂坠其间，在冷调廊道中舒展成一片鲜活的生命力场。晨光穿透叶脉时，枝影婆娑如呼吸韵律，药水气息里悄然生长着自然的治愈密码，以温柔形态抚慰每道疲惫的视线。"
 price = 100
 value = [2, 1, 1, 1, 0]
 type = 1

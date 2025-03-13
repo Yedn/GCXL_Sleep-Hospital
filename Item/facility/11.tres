@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://3a7xhtr5mpgn"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_17iw8"]
 
 [resource]
 script = ExtResource("1_17iw8")
 item_name = "高科技饮水机"
-description = "利用卡扎鲁-克莱因额外维胀子场效应管将自来水转变为有益于身体健康的水"
+description = "这是一台位于医院环境中的饮水机，设计简洁现代，配备双温水龙头，提供冷热饮水服务，满足患者与医护人员的即时饮水需求，促进医疗环境中的健康与便利。"
 price = 150
 value = [2, 0, 0, 4, 1]
 type = 2

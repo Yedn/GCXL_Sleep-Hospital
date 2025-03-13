@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://cjxpvynkymky3"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_hwgf2"]
 
 [resource]
 script = ExtResource("1_hwgf2")
 item_name = "天空床(木)"
-description = "十分舒适的木床,具有云的质感"
+description = "这款医疗床专为睡眠障碍患者设计，采用柔软分区支撑层，贴合身体曲线减少压迫感。内置温度调节功能保持体感舒适，床头和床尾可电动升降调整睡姿。选用透气防菌面料，搭配静音马达，运行无噪音干扰，帮助患者获得安稳睡眠。"
 price = 100
 value = [2, 4, 1, 1, 1]
 type = 0

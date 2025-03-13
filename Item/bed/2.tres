@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_3717y")
 item_name = "医疗床(木)"
-description = "能在患者睡眠时缓慢释放药物的木床"
+description = "这是一种专门设计用于睡眠疾病治疗的医疗床，其治疗效果显著优于普通病床。通过先进的睡眠监测技术和个性化的治疗方案，它能有效改善患者的睡眠质量和健康状况，促进快速康复。"
 price = 100
 value = [2, 1, 1, 4, 1]
 type = 0

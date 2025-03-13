@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://jxrh7wkbbrjw"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_vqke1"]
 
 [resource]
 script = ExtResource("1_vqke1")
 item_name = "画架"
-description = "可以让患者专注于画画"
+description = "在医院中，画架扮演着艺术疗愈的重要角色。其设计简约而稳固，木质结构搭配柔和的色调，顶部可旋转画布，便于艺术家调整视角。画架上的作品往往充满希望和宁静，为病患提供精神上的慰藉。"
 price = 150
 value = [6, 1, 2, 0, 0]
 type = 2

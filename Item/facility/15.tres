@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://gk4im4udwbs4"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_4gqw7"]
 
 [resource]
 script = ExtResource("1_4gqw7")
 item_name = "大书"
-description = "图画精美的大型书"
+description = "这本医院中的图书详细记录了医学知识，左侧为绿色代码，右侧为蓝色符号，便于快速查阅和理解，促进医学理论与实践的结合，提升临床诊疗水平。"
 price = 400
 value = [2, 3, 3, 1, 1]
 type = 2

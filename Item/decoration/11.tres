@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://57h5xghk5g8j"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_7fvv7"]
 
 [resource]
 script = ExtResource("1_7fvv7")
 item_name = "电话"
-description = "方便患者和家人沟通"
+description = "这款装饰电话呈现出复古的设计风格，坐落于医院之中，以其简洁的线条与淡雅的色调，为患者与医护人员带来一丝温馨的感觉，同时也体现了医院环境的专业与人文关怀。"
 price = 100
 value = [0, 1, 2, 0, 1]
 type = 1

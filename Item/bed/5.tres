@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://dunsfy0srsvkg"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_hv8o3"]
 
 [resource]
 script = ExtResource("1_hv8o3")
 item_name = "普通床(铜)"
-description = "普通的铜床,各方面都比较均衡"
+description = "这是普通床的升级版本，一款高科技智能病床。它集成了多种先进功能，如自动调整睡姿、温控舒适系统和健康监测功能。床头配备便捷操作屏，可一键调节床体高度和角度，以及访问娱乐系统。升级版本更注重用户体验，以提供更佳的休息和康复环境。"
 price = 200
 value = [4, 3, 3, 2, 2]
 type = 0

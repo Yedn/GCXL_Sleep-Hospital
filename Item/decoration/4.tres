@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_67guf")
 item_name = "橡树"
-description = "种在盆栽中的橡树"
+description = "其茂密的绿色树冠为医疗环境增添了一抹生机。种植在简约的盆栽中，它不仅是美观的装饰，还起到了净化空气、缓解患者紧张情绪的作用。"
 price = 50
 value = [0, 0, 1, 1, 0]
 type = 1

@@ -3,7 +3,7 @@ extends Node
 @export var room_list:Dictionary
 
 @export var item_list:Dictionary
-@export var money:int = 500
+@export var money:int = 5000
 @export var suanli:int = 50
 @export var day:int
 @export var frame:float

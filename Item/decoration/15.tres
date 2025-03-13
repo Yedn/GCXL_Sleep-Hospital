@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource("1_jbsqm")
 item_name = "小南瓜"
-description = "患者可以把它套在头上"
+description = "暖橙色南瓜雕塑以哑光质感与流转光泽交织，圆润曲线缀以叶片纹路，于冷峻廊间绽出秋日暖意，其有机形态与自然意象悄然抚慰焦虑，为医疗空间注入一抹疗愈温度。"
 price = 250
 value = [2, 2, 1, 0, 0]
 type = 1

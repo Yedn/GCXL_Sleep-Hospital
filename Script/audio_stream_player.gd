@@ -6,7 +6,7 @@ var id:int = 0
 
 func _ready() -> void:
 	await get_tree().create_timer(5).timeout
-	play_next()
+	#play_next()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

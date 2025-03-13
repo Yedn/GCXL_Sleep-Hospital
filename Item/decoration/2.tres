@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://r57vl5gh64b1"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_g7gs5"]
 
 [resource]
 script = ExtResource("1_g7gs5")
 item_name = "小树"
-description = "种在盆栽中的小树"
+description = "普通的小树"
 price = 50
 value = [0, 1, 1, 0, 0]
 type = 1

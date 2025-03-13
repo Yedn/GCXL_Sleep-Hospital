@@ -1,11 +1,11 @@
-[gd_resource type="Resource" script_class="Item" load_steps=2 format=3]
+[gd_resource type="Resource" script_class="Item" load_steps=2 format=3 uid="uid://dyw1u46xgx45y"]
 
 [ext_resource type="Script" path="res://Script/Item.gd" id="1_lfwkf"]
 
 [resource]
 script = ExtResource("1_lfwkf")
-item_name = "灵能床(铜)"
-description = "能与患者进行心灵沟通的铜床，帮助患者舒缓压力"
+item_name = "安神床(铜)"
+description = "该病床专为心理因素引发的睡眠障碍患者设计，整合多模态生物反馈系统与自适应压力舒缓技术，通过实时监测心率变异性及脑电波，联动智能环境调节模块（光线、声频、温湿度），结合认知行为疗法（CBT）模块引导情绪调节，动态降低皮质醇水平，显著缓解焦虑、紧张等压力反应，重建睡眠-心理平衡机制，提升睡眠质量及神经心理恢复效能。"
 price = 200
 value = [2, 2, 6, 1, 1]
 type = 0
