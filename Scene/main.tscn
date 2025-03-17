@@ -11828,6 +11828,7 @@ text = "天数:"
 vertical_alignment = 1
 
 [node name="Summary" parent="." instance=ExtResource("27_w5tg7")]
+z_index = 1000
 offset_left = -424.0
 offset_top = -75.0
 offset_right = -424.0
@@ -11842,7 +11843,6 @@ offset_right = -424.0
 offset_bottom = -75.0
 
 [node name="CanvasModulate" type="Sprite2D" parent="."]
-visible = false
 z_index = 20
 material = SubResource("ShaderMaterial_2ea25")
 position = Vector2(-424, -75)
@@ -11856,7 +11856,6 @@ libraries = {
 }
 
 [node name="Menu" type="Control" parent="."]
-visible = false
 z_index = 200
 layout_mode = 3
 anchors_preset = 0
@@ -11937,7 +11936,7 @@ theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
 theme_override_constants/outline_size = 8
 theme_override_fonts/font = ExtResource("18_ntiel")
 theme_override_font_sizes/font_size = 64
-text = "睡 觉 医 院"
+text = "睡 眠 诊 所"
 
 [node name="ConfigButton" type="TextureButton" parent="."]
 z_index = 300

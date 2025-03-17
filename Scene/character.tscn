@@ -700,7 +700,7 @@ script = ExtResource("12_48ltq")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = 20
 material = SubResource("ShaderMaterial_6t45o")
-position = Vector2(0, -11)
+position = Vector2(0, -20)
 texture = ExtResource("14_yo62t")
 
 [node name="Timer" type="Timer" parent="Sprite2D"]

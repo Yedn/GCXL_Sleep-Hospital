@@ -15,7 +15,7 @@ func _process(delta: float) -> void:
 
 func _on_pressed() -> void:
 	if get_room().digitisation == false and Data.suanli>=2:
-		Data.money -= 2
+		Data.suanli -= 2
 		get_room().digitisation = true
 		$TileMapLayer2.visible = true
 		$TileMapLayer.visible = false

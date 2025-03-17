@@ -4,7 +4,7 @@ class_name Board
 var open:bool = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	position.y = endpos
 
 var startpos:float = -32
 var endpos:float = 420

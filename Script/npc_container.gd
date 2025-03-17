@@ -177,17 +177,17 @@ var free_npc_num:int = 0
 var reject_npc_num:int = 0
 var skip_npc_num:int = 0
 func day0():
-	#npc_num = 6
-	#var npc_list:Array = [0,1,4,2,5,3]
-	npc_num = 2
-	var npc_list:Array = [0,1]
+	#npc_num = 1
+	#var npc_list:Array = [12]
+	npc_num = 8
+	var npc_list:Array = [0,1,3,30,11,12,16,71]
 	for i in npc_num:
 		generate_npc(npc_list[i])
 		await get_tree().create_timer(randf_range(5,10)).timeout
 
 func day1():
-	npc_num = 6
-	var npc_list:Array = [8,10,6,7,9,11]
+	npc_num = 4
+	var npc_list:Array = [8,10,6,9]
 	#npc_num = 1
 	#var npc_list:Array = [12]
 	for i in npc_num:
@@ -195,8 +195,8 @@ func day1():
 		await get_tree().create_timer(randf_range(5,10)).timeout
 
 func day2():
-	npc_num = 6
-	var npc_list:Array = [12,15,16,13,14,17]
+	npc_num = 3
+	var npc_list:Array = [15,13,17]
 	#npc_num = 1
 	#var npc_list:Array = [14]
 	for i in npc_num:
@@ -229,7 +229,7 @@ func day4():
 func day5():
 	npc_num = 10
 	day_time = 180
-	var npc_list:Array = [72,51,57,73,53,30,28,52,32,74]
+	var npc_list:Array = [72,51,57,73,53,7,28,52,32,74]
 	for i in npc_num:
 		generate_npc(npc_list[i])
 		await get_tree().create_timer(randf_range(5,10)).timeout
@@ -243,9 +243,9 @@ func day6():
 		await get_tree().create_timer(randf_range(5,10)).timeout
 
 func day7():
-	npc_num = 10
+	npc_num = 9
 	day_time = 180
-	var npc_list:Array = [47,19,21,22,23,25,71,60,46,37]
+	var npc_list:Array = [47,19,21,22,23,25,60,46,37]
 	for i in npc_num:
 		generate_npc(npc_list[i])
 		await get_tree().create_timer(randf_range(5,10)).timeout

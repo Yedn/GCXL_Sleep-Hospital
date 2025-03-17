@@ -69,7 +69,7 @@ func _physics_process(delta: float) -> void:
 		sprite_2d.visible = false
 	var pos:Vector2 = global_position-Vector2(-424,-75)
 	@warning_ignore("integer_division")
-	var loc:Vector2 = Vector2(pos.x-(864-486)/2,pos.y)/486
+	var loc:Vector2 = Vector2(pos.x-(864-486)/2,pos.y-10)/486
 	sprite_2d.material.set_shader_parameter("center",loc)
 	var percent:float = 1-timer.time_left/timer.wait_time
 	sprite_2d.material.set_shader_parameter("size",0.3*percent)
